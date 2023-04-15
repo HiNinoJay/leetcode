@@ -1,1 +1,1 @@
-# leetcode
+# com.ninojay.leetcode
