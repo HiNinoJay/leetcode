@@ -4,8 +4,6 @@
 
 分模块刷题的收获更深刻，先在此感谢该pdf的作者。
 
-
-
 #### 排序算法
 
 | Title                                                        | 平均时间复杂度 | 空间复杂度 |
@@ -73,6 +71,7 @@
 #### 搜索
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
+| [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/) | [TwoFiveSeven257.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/TwoFiveSeven257.java) | 简单       |      |
 | [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/) | [FiveFourSeven547.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FiveFourSeven547.java) | 中等       |      |
 | [417. 太平洋大西洋水流](https://leetcode.cn/problems/pacific-atlantic-water-flow/) | [FourOneSeven417.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourOneSeven417.java) | 中等       |      |
 | [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/) | [FourSeven47.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourSeven47.java) | 中等       |      |
@@ -85,17 +84,16 @@
 | [77. 组合](https://leetcode.cn/problems/combinations/)       | [SevenSeven77.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SevenSeven77.java) | 中等       |      |
 | [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) | [SixNineFive695ByRecursion.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByRecursion.java) | 中等       |      |
 | [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) | [SixNineFive695ByStack.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByStack.java) | 中等       |      |
-| [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/) | [TwoFiveSeven257.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/TwoFiveSeven257.java) | 简单       |      |
 
 
 #### 动态规划
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
+| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)  | [SevenZero70.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/SevenZero70.java) | 简单       |      |
 | [542. 01 矩阵](https://leetcode.cn/problems/01-matrix/)      | [FiveFourTwo542.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/FiveFourTwo542.java) | 中等       |      |
 | [413. 等差数列划分](https://leetcode.cn/problems/arithmetic-slices/) | [FourOneThreee413.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/FourOneThreee413.java) | 中等       |      |
 | [91. 解码方法](https://leetcode.cn/problems/decode-ways/)    | [NineOne91.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/NineOne91.java) | 中等       |      |
 | [198. 打家劫舍](https://leetcode.cn/problems/house-robber/)  | [OneNineEight198.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/OneNineEight198.java) | 中等       |      |
-| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/)  | [SevenZero70.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/SevenZero70.java) | 简单       |      |
 | [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/) | [SixFour64.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/SixFour64.java) | 中等       |      |
 | [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/) | [TwoSevenNine279.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/TwoSevenNine279.java) | 中等       |      |
 | [221. 最大正方形](https://leetcode.cn/problems/maximal-square/) | [TwoTwoOne221.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/f动态规划/TwoTwoOne221.java) | 中等       |      |
@@ -124,11 +122,11 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | [448. 找到所有数组中消失](https://leetcode.cn/problems/find-all-numbers-disappeared-in-an-array/) | [FourFourEight448.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/FourFourEight448.java) | 简单       |      |
 | [1. 两数之和](https://leetcode.cn/problems/two-sum/)         | [One1.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/One1.java) | 简单       |      |
-| [155. 最小栈](https://leetcode.cn/problems/min-stack/)       | [OneFiveFive155.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/OneFiveFive155.java) | 中等       |      |
 | [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate/) | [TwoOneSeven217.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/TwoOneSeven217.java) | 简单       |      |
 | [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/) | [TwoThreeTwo232.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/TwoThreeTwo232.java) | 简单       |      |
 | [225. 用队列实现栈](https://leetcode.cn/problems/implement-stack-using-queues/) | [TwoTwoFive225.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/TwoTwoFive225.java) | 简单       |      |
 | [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) | [TwoZero20.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/TwoZero20.java) | 简单       |      |
+| [155. 最小栈](https://leetcode.cn/problems/min-stack/)       | [OneFiveFive155.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/j数据结构/OneFiveFive155.java) | 中等       |      |
 
 
 #### 字符串
@@ -141,41 +139,41 @@
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | [83. 删除排序链表中的重复](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | [EightThree83.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/EightThree83.java) | 简单       |      |
+| [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | [TwoThreeFour234.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/TwoThreeFour234.java) | 简单       |      |
+| [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/) | [TwoZeroSix206.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/TwoZeroSix206.java) | 简单       |      |
+| [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | [OneSixZero160.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/OneSixZero160.java) | 简单       |      |
 | [148. 排序链表](https://leetcode.cn/problems/sort-list/)     | [OneFourEight148.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/OneFourEight148.java) | 中等       |      |
 | [19. 删除链表的倒数第 N 个](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/) | [OneNine19.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/OneNine19.java) | 中等       |      |
-| [160. 相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/) | [OneSixZero160.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/OneSixZero160.java) | 简单       |      |
 | [328. 奇偶链表](https://leetcode.cn/problems/odd-even-linked-list/) | [ThreeTwoEight328.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/ThreeTwoEight328.java) | 中等       |      |
 | [2. 两数相加](https://leetcode.cn/problems/add-two-numbers/) | [Two2.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/Two2.java) | 中等       |      |
 | [24. 两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/) | [TwoFour24.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/TwoFour24.java) | 中等       |      |
-| [234. 回文链表](https://leetcode.cn/problems/palindrome-linked-list/) | [TwoThreeFour234.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/TwoThreeFour234.java) | 简单       |      |
-| [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/) | [TwoZeroSix206.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/l链表/TwoZeroSix206.java) | 简单       |      |
 
 
 #### 树
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
-| [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [EightEightNine889.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/EightEightNine889.java) | 中等       |      |
 | [897. 递增顺序搜索树](https://leetcode.cn/problems/increasing-order-search-tree/) | [EightNineSeven897.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/EightNineSeven897.java) | 简单       |      |
-| [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) | [FiveFourThree543.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveFourThree543.java) | 简单       |      |
-| [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) | [FiveOneThree513.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveOneThree513.java) | 中等       |      |
-| [572. 另一棵树的子树](https://leetcode.cn/problems/subtree-of-another-tree/) | [FiveSevenTwo572.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveSevenTwo572.java) | 简单       |      |
-| [538. 把二叉搜索树转换为](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [FiveThreeEight538.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveThreeEight538.java) | 中等       |      |
 | [530. 二叉搜索树的最小绝对](https://leetcode.cn/problems/minimum-absolute-difference-in-bst/) | [FiveThreeZero530.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveThreeZero530.java) | 简单       |      |
-| [450. 删除二叉搜索树中的](https://leetcode.cn/problems/delete-node-in-a-bst/) | [FourFiveZero450.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourFiveZero450.java) | 中等       |      |
-| [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/) | [FourThreeSeven437.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourThreeSeven437.java) | 中等       |      |
-| [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/) | [FourZeroFour404.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourZeroFour404.java) | 简单       |      |
+| [543. 二叉树的直径](https://leetcode.cn/problems/diameter-of-binary-tree/) | [FiveFourThree543.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveFourThree543.java) | 简单       |      |
 | [94. 二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [NineFour94.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/NineFour94.java) | 简单       |      |
+| [404. 左叶子之和](https://leetcode.cn/problems/sum-of-left-leaves/) | [FourZeroFour404.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourZeroFour404.java) | 简单       |      |
 | [144. 二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/) | [OneFourFour144.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneFourFour144.java) | 简单       |      |
-| [1110. 删点成林](https://leetcode.cn/problems/delete-nodes-and-return-forest/) | [OneOneOneZero1110.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneOneOneZero1110.java) | 中等       |      |
 | [110. 平衡二叉树](https://leetcode.cn/problems/balanced-binary-tree/) | [OneOneZero110.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneOneZero110.java) | 简单       |      |
-| [105. 从前序与中序遍历序](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [OneZeroFive105.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroFive105.java) | 中等       |      |
 | [104. 二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | [OneZeroFour104.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroFour104.java) | 简单       |      |
 | [101. 对称二叉树](https://leetcode.cn/problems/symmetric-tree/) | [OneZeroOne101.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroOne101.java) | 简单       |      |
-| [106. 从中序与后序遍历序](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [OneZeroSix106.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroSix106.java) | 中等       |      |
 | [653. 两数之和 IV - 输入二](https://leetcode.cn/problems/two-sum-iv-input-is-a-bst/) | [SixFiveThree653.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/SixFiveThree653.java) | 简单       |      |
 | [617. 合并二叉树](https://leetcode.cn/problems/merge-two-binary-trees/) | [SixOneSeven617.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/SixOneSeven617.java) | 简单       |      |
-| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/) | [SixSixNine669.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/SixSixNine669.java) | 中等       |      |
 | [637. 二叉树的层平均值](https://leetcode.cn/problems/average-of-levels-in-binary-tree/) | [SixThreeSeven637.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/SixThreeSeven637.java) | 简单       |      |
-| [235. 二叉搜索树的最近公共](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [TwoThreeFive235.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/TwoThreeFive235.java) | 中等       |      |
 | [226. 翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/) | [TwoTwoSix226.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/TwoTwoSix226.java) | 简单       |      |
+| [572. 另一棵树的子树](https://leetcode.cn/problems/subtree-of-another-tree/) | [FiveSevenTwo572.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveSevenTwo572.java) | 简单       |      |
+| [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [EightEightNine889.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/EightEightNine889.java) | 中等       |      |
+| [513. 找树左下角的值](https://leetcode.cn/problems/find-bottom-left-tree-value/) | [FiveOneThree513.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveOneThree513.java) | 中等       |      |
+| [538. 把二叉搜索树转换为](https://leetcode.cn/problems/convert-bst-to-greater-tree/) | [FiveThreeEight538.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FiveThreeEight538.java) | 中等       |      |
+| [450. 删除二叉搜索树中的](https://leetcode.cn/problems/delete-node-in-a-bst/) | [FourFiveZero450.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourFiveZero450.java) | 中等       |      |
+| [437. 路径总和 III](https://leetcode.cn/problems/path-sum-iii/) | [FourThreeSeven437.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/FourThreeSeven437.java) | 中等       |      |
+| [1110. 删点成林](https://leetcode.cn/problems/delete-nodes-and-return-forest/) | [OneOneOneZero1110.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneOneOneZero1110.java) | 中等       |      |
+| [105. 从前序与中序遍历序](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [OneZeroFive105.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroFive105.java) | 中等       |      |
+| [106. 从中序与后序遍历序](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [OneZeroSix106.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/OneZeroSix106.java) | 中等       |      |
+| [669. 修剪二叉搜索树](https://leetcode.cn/problems/trim-a-binary-search-tree/) | [SixSixNine669.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/SixSixNine669.java) | 中等       |      |
+| [235. 二叉搜索树的最近公共](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [TwoThreeFive235.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/TwoThreeFive235.java) | 中等       |      |
 | [208. 实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [TwoZeroEight208.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/m树/TwoZeroEight208.java) | 中等       |      |
