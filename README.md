@@ -1,6 +1,8 @@
-主要记录自己使用Java语言系统性刷过的算法题。分模块刷题的收获更深刻。
+主要记录自己使用`Java语言`系统性刷过的算法题。
 
-> 源于这份[pdf](https://github.com/HiNinoJay/leetcode/blob/main/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf)：该书采用c++语言
+> 源于一份pdf刷题书，需要该pdf可在我的[github仓库](https://github.com/HiNinoJay/leetcode/blob/main/LeetCode%20101%20-%20A%20LeetCode%20Grinding%20Guide%20(C%2B%2B%20Version).pdf)下载，须知书里采用的是c++语法。
+
+分模块刷题的收获更深刻，先在此感谢该pdf的作者。
 
 
 
