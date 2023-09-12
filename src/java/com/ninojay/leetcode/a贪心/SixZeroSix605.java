@@ -4,7 +4,7 @@ package com.ninojay.leetcode.a贪心;
  * @author zengzhongjie
  * @date 2023/1/31
  */
-public class SixZeroSix606 {
+public class SixZeroSix605 {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int i = 0;
         while(i < flowerbed.length && n > 0) {
@@ -26,6 +26,6 @@ public class SixZeroSix606 {
     public static void main(String[] args) {
         int[] flowerbed = {1,0,0,0,1};
         int n = 1;
-        System.out.println(new SixZeroSix606().canPlaceFlowers(flowerbed, n));
+        System.out.println(new SixZeroSix605().canPlaceFlowers(flowerbed, n));
     }
 }
