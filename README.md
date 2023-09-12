@@ -18,17 +18,20 @@
 
 #### 贪心
 
-| Title                                                        | Solution                                                     | Difficulty | flag |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
-| [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/) | [FourFiveFive455.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourFiveFive455.java) | 简单       |      |
-| [606. 根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/) | [SixZeroSix606.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SixZeroSix606.java) | 简单       |      |
-| [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/) | [FourFiveTwo452.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourFiveTwo452.java) | 中等       |      |
-| [436. 寻找右区间](https://leetcode.cn/problems/find-right-interval/) | [FourThreeSix436.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourThreeSix436.java) | 中等       | ❎    |
-| [406. 根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height/) | [FourZeroSix406.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourZeroSix406.java) | 中等       |      |
-| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) | [OneTwoTwo122.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/OneTwoTwo122.java) | 中等       |      |
-| [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/) | [SevenSixThree763.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SevenSixThree763.java) | 中等       |      |
-| [665. 非递减数列](https://leetcode.cn/problems/non-decreasing-array/) | [SixSixFive665.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SixSixFive665.java) | 中等       |      |
-| [135. 分发糖果](https://leetcode.cn/problems/candy/)         | [OneThreeFive135.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/OneThreeFive135.java) | 困难       |      |
+| Title                                                                                        | Solution                                                                                                                         | Difficulty | flag |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|------------| ---- |
+| [455. 分发饼干](https://leetcode.cn/problems/assign-cookies/)                                    | [FourFiveFive455.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourFiveFive455.java)   | 简单         |      |
+| [135. 分发糖果](https://leetcode.cn/problems/candy/)                                             | [OneThreeFive135.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/OneThreeFive135.java)   | 困难         |      |
+| [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals/)                        | [FourThreeFive453.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourThreeFive435.java) | 中等         |      |
+| [605. 种花问题](https://leetcode.cn/problems/can-place-flowers/)                         | [SixZeroFive605.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SixZeroFive605.java)   | 简单         |      |
+| [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons/) | [FourFiveTwo452.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourFiveTwo452.java)     | 中等         |      |
+| [763. 划分字母区间](https://leetcode.cn/problems/partition-labels/)                                | [SevenSixThree763.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SevenSixThree763.java) | 中等         |      |
+| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)        | [OneTwoTwo122.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/OneTwoTwo122.java)         | 中等         |      |
+| [406. 根据身高重建队列](https://leetcode.cn/problems/queue-reconstruction-by-height/)                | [FourZeroSix406.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourZeroSix406.java)     | 中等         |      |
+| [665. 非递减数列](https://leetcode.cn/problems/non-decreasing-array/)                             | [SixSixFive665.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SixSixFive665.java)       | 中等         |      |
+| [606. 根据二叉树创建字符串](https://leetcode.cn/problems/construct-string-from-binary-tree/)           | [SixZeroSix606.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/SixZeroSix606.java)       | 简单         |      |
+| [436. 寻找右区间](https://leetcode.cn/problems/find-right-interval/)                              | [FourThreeSix436.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/a贪心/FourThreeSix436.java)   | 中等         |     |
+
 
 
 
@@ -36,13 +39,13 @@
 
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
+| [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | [OneSisSeven167.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/OneSisSeven167.java) | 中等       |      |
 | [88. 合并两个有序数组](https://leetcode.cn/problems/merge-sorted-array/) | [EightEight88.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/EightEight88.java) | 简单       |      |
+| [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | [OneFourTwo142.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/OneFourTwo142.java) | 中等       |      |
+| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/) | [SevenSix76.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/SevenSix76.java) | 困难       |      |
+| [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/) | [SixThreeThree633.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/SixThreeThree633.java) | 中等       |      |
 | [680. 验证回文串 II](https://leetcode.cn/problems/valid-palindrome-ii/) | [SixEightZero680.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/SixEightZero680.java) | 简单       |      |
 | [524. 通过删除字母匹配到字典里最](https://leetcode.cn/problems/longest-word-in-dictionary-through-deleting/) | [FiveTwoFour524.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/FiveTwoFour524.java) | 中等       |      |
-| [142. 环形链表 II](https://leetcode.cn/problems/linked-list-cycle-ii/) | [OneFourTwo142.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/OneFourTwo142.java) | 中等       |      |
-| [167. 两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/) | [OneSisSeven167.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/OneSisSeven167.java) | 中等       |      |
-| [633. 平方数之和](https://leetcode.cn/problems/sum-of-square-numbers/) | [SixThreeThree633.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/SixThreeThree633.java) | 中等       |      |
-| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/) | [SevenSix76.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/b双指针/SevenSix76.java) | 困难       |      |
 
 
 
@@ -51,39 +54,43 @@
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
 | [69. x 的平方根](https://leetcode.cn/problems/sqrtx/)        | [SixNine69.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/SixNine69.java) | 简单       |      |
-| [81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/) | [EightOne81.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/EightOne81.java) | 中等       |      |
-| [540. 有序数组中的单一元](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [FiveFourZero540.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/FiveFourZero540.java) | 中等       |      |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [ThreeFour34.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/ThreeFour34.java) | 中等       |      |
+| [81. 搜索旋转排序数组 II](https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/) | [EightOne81.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/EightOne81.java) | 中等       |      |
 | [154. 寻找旋转排序数组中的最小值 II](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | [OneFiveFoue154.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/OneFiveFoue154.java) | 困难       |      |
-| [4.寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [Four4.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/Four4.java) | 困难       | ❎    |
+| [540. 有序数组中的单一元](https://leetcode.cn/problems/single-element-in-a-sorted-array/) | [FiveFourZero540.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/FiveFourZero540.java) | 中等       |      |
+| [4.寻找两个正序数组的中位数](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [Four4.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/c二分查找/Four4.java) | 困难       |    |
 
 
 
 #### 排序
 | Title                                                        | Solution                                                     | Difficulty | flag |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
+| [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/) | [ThreeFourSeven347.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d排序/ThreeFourSeven347.java) | 中等       |      |
 | [451. 根据字符出现频率排](https://leetcode.cn/problems/sort-characters-by-frequency/) | [FoutFiveOne451.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d排序/FoutFiveOne451.java) | 中等       |      |
 | [75. 颜色分类](https://leetcode.cn/problems/sort-colors/)    | [SevenFive75.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d排序/SevenFive75.java) | 中等       |      |
-| [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/) | [ThreeFourSeven347.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d排序/ThreeFourSeven347.java) | 中等       |      |
 | [215. 数组中的第K个最大元](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [TwoOneFIve215.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/d排序/TwoOneFIve215.java) | 中等       |      |
 
 
 #### 搜索
-| Title                                                        | Solution                                                     | Difficulty | flag |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ---- |
-| [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/) | [TwoFiveSeven257.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/TwoFiveSeven257.java) | 简单       |      |
-| [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/) | [FiveFourSeven547.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FiveFourSeven547.java) | 中等       |      |
-| [417. 太平洋大西洋水流](https://leetcode.cn/problems/pacific-atlantic-water-flow/) | [FourOneSeven417.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourOneSeven417.java) | 中等       |      |
-| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/) | [FourSeven47.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourSeven47.java) | 中等       |      |
-| [46. 全排列](https://leetcode.cn/problems/permutations/)     | [FourSix46.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourSix46.java) | 中等       |      |
-| [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/) | [FourZero40.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourZero40.java) | 中等       |      |
-| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/) | [MyNineThreeFour934.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/MyNineThreeFour934.java) | 中等       |      |
-| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/) | [NineThreeFour934.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/NineThreeFour934.java) | 中等       | ❎    |
-| [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/) | [OneThreeZero130.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/OneThreeZero130.java) | 中等       |      |
-| [79. 单词搜索](https://leetcode.cn/problems/word-search/)    | [SevenNine79.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SevenNine79.java) | 中等       |      |
-| [77. 组合](https://leetcode.cn/problems/combinations/)       | [SevenSeven77.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SevenSeven77.java) | 中等       |      |
-| [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) | [SixNineFive695ByRecursion.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByRecursion.java) | 中等       |      |
-| [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/) | [SixNineFive695ByStack.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByStack.java) | 中等       |      |
+| Title                                                               | Solution                                                                                                                                           | Difficulty | flag |
+|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|------------| -- |
+| [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/)    | [SixNineFive695ByRecursion.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByRecursion.java) | 中等         |    |
+| [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/)    | [SixNineFive695ByStack.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SixNineFive695ByStack.java)         | 中等         |    |
+| [547. 省份数量](https://leetcode.cn/problems/number-of-provinces/)      | [FiveFourSeven547.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FiveFourSeven547.java)                   | 中等         |    |
+| [417. 太平洋大西洋水流](https://leetcode.cn/problems/pacific-atlantic-water-flow/) | [FourOneSeven417.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourOneSeven417.java)                     | 中等         |    |
+| [46. 全排列](https://leetcode.cn/problems/permutations/)               | [FourSix46.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourSix46.java)                                 | 中等         |    |
+| [77. 组合](https://leetcode.cn/problems/combinations/)                | [SevenSeven77.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SevenSeven77.java)                           | 中等         |    |
+| [79. 单词搜索](https://leetcode.cn/problems/word-search/)               | [SevenNine79.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/SevenNine79.java)                             | 中等         |    |
+| [51. N皇后](https://leetcode.cn/problems/n-queens/)                   | [FiveOne51.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FiveOne51.java)                                 | 困难         |    |
+| [934. 最短的桥](https://leetcode.cn/problems/shortest-bridge/)          | [MyNineThreeFour934.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/MyNineThreeFour934.java)               | 中等         |    |
+| [934. 最短桥](https://leetcode.cn/problems/shortest-bridge/)           | [NineThreeFour934.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/NineThreeFour934.java)                   | 中等         |    |
+| [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii/)              | [OneTwoSix.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/OneTwoSix.java)                                 | 困难         |    |
+| [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/)     | [OneThreeZero130.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/OneThreeZero130.java)                     | 中等         |    |
+| [257. 二叉树的所有路径](https://leetcode.cn/problems/binary-tree-paths/)    | [TwoFiveSeven257.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/TwoFiveSeven257.java)                     | 简单         |    |
+| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii/)         | [FourSeven47.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourSeven47.java)                             | 中等         |    |
+| [40. 组合总和 II](https://leetcode.cn/problems/combination-sum-ii/)     | [FourZero40.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/FourZero40.java)                               | 中等         |    |
+| [37. 解数独](https://leetcode.cn/problems/sudoku-solver/)            | [ThreeSeven.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/ThreeSeven.java)                               | 困难         |    |
+| [310. 最小高度树](https://leetcode.cn/problems/minimum-height-trees/)           | [ThreeOneZero.java](https://github.com/HiNinoJay/leetcode/blob/main/src/java/com/ninojay/leetcode/e搜索/ThreeOneZero.java)                             | 中等         |    |
 
 
 #### 动态规划
