@@ -1,4 +1,4 @@
-package com.ninojay.leetcode.e搜索;
+package com.ninojay.leetcode.e搜索.a深度优先搜索;
 
 import com.ninojay.leetcode.util.NinoArrayUtil;
 
