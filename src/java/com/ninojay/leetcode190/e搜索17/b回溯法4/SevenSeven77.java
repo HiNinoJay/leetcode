@@ -15,34 +15,35 @@ public class SevenSeven77 {
     static List<Integer> temp_result = new ArrayList<>();
 
     public static void main(String[] args) {
-        int n = 1;
-        int k = 1;
-        NinoCollectionUtil.printListListInteger(combine(n, k));
+        int n = 4;
+        int k = 2;
+        NinoCollectionUtil.printListListInteger(new SevenSeven77().combine(n, k));
     }
 
-    public static List<List<Integer>> combine(int n, int k) {
-        backTracking(1, n, k);
+    public List<List<Integer>> combine(int n, int k) {
+
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> tempResult = new ArrayList<>();
+
+        int tempCount = 0;
+        backTracking(result, tempResult, tempCount, 1, n, k);
         return result;
     }
 
-    private static void backTracking(int current, int n, int k) {
-        if(temp_result.size() + (n - current + 1) < k) {
+    private void backTracking(List<List<Integer>> result, List<Integer> tempResult,
+                              int tempCount, int startN, int n, int k) {
+
+        if(tempCount == k) {
+            result.add(new ArrayList<Integer>(tempResult));
             return;
         }
-
-        if(temp_result.size() == k) {
-            result.add(new ArrayList<>(temp_result));
-            return;
+        for(int i = startN; i <= n; i++) {
+            tempResult.add(i);
+            tempCount++;
+            backTracking(result, tempResult, tempCount, i + 1, n, k);
+            tempCount--;
+            tempResult.remove(tempCount);
         }
-
-        temp_result.add(current);
-        backTracking(current + 1, n, k);
-        temp_result.remove(temp_result.size() - 1);
-
-        // 考虑不选择当前位置
-        backTracking(current + 1, n, k);
-
-
     }
 
 }
