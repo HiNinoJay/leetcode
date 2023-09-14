@@ -27,105 +27,116 @@ public class NineThreeFour934 {
                 "[0,0,0]," +
                 "[0,0,1]]"); // 2
 
-        System.out.println(shortestBridge(grid));
+        System.out.println(new NineThreeFour934().shortestBridge(grid));
     }
 
-    private static int[] direction = {-1, 0, 1, 0, -1};
+    private int[] position = new int[]{-1, 0, 1, 0, -1};
 
-    public static int shortestBridge(int[][] grid) {
+    public int shortestBridge(int[][] grid) {
 
-        int rows = grid.length;
-        int columns = grid[0].length;
 
-        LinkedList<Node> points = new LinkedList<>();
-        boolean flipped = false;
+        // 先通过 dfs 将第一座岛屿弄成 2
+        // 并且 记录第一外层的 0岛屿 到 队列中
+        // 接着就能通过 bfs 一层层往外找
 
-        for (int i = 0; i < rows; ++i) {
-            if (flipped) {
-                break;
-            }
-            for (int j = 0; j < columns; ++j) {
-                if (grid[i][j] == 1) {
-                    // dfs寻找第一个岛屿，并把1全部赋值为2
-                    dfs(points, grid, rows, columns, i, j);
-                    // 说明找到第一个岛屿了
-                    flipped = true;
+        LinkedList<Node> queue = new LinkedList<>();
+
+        int rows =  grid.length;
+        int columns =  grid[0].length;
+        boolean findFirstIsland = false;
+
+        for(int i = 0; i < rows; i++) {
+            for(int j = 0; j < columns; j++) {
+                if(grid[i][j] == 1) {
+                    // 说明找到了第一座岛屿的开头
+                    dfs(queue, grid, i, j);
+                    findFirstIsland = true;
                     break;
                 }
             }
+            if(findFirstIsland) {
+                break;
+            }
         }
 
-        // bfs寻找第二个岛屿，并把过程中经过的0赋值为2
-        // points中已经记录了，第一个岛屿的相邻海洋
-        int level = 0;
-        // points当中全是 代表海洋的0,我们要去填
-        while (!points.isEmpty()){
-
-            // 当前填的第几次
-            ++level;
-            LinkedList<Node> temp_points = new LinkedList<>(points);
-
-            while (!temp_points.isEmpty()) {
-
-                Node point = temp_points.pollFirst();
-                grid[point.i][point.j] = 2;
-
-                for (int k = 0; k < 4; ++k) {
-
-                    int x = point.i + direction[k];
-                    int y = point.j + direction[k + 1];
-
-                    if (x >= 0 && y >= 0 && x < rows && y < columns) {
-
-                        if (grid[x][y] == 2) {
+        // 代表层数
+        int result = 0;
+        while(!queue.isEmpty()) {
+            result++;
+            int levelCount = queue.size();
+            while(levelCount-- > 0) {
+                Node tempNode = queue.pollFirst();
+                // 注意这里要先置为2，可以减少时间消耗
+                grid[tempNode.i][tempNode.j] = 2;
+                for(int k = 0; k < 4; k++) {
+                    int m = tempNode.i + position[k];
+                    int n = tempNode.j + position[k+1];
+                    if(m >=0 && m < grid.length && n >=0 && n < grid[0].length) {
+                        if(grid[m][n] == 2) {
                             continue;
                         }
 
-                        if (grid[x][y] == 1) {
-                            // 说明找到了
-                            return level;
+                        if(grid[m][n] == 1) {
+                            return result;
                         }
-                        if(grid[x][y] == 0) {
-                            points.addLast(new Node(x, y));
-                            grid[x][y] = 2;
-                        }
+                        queue.addLast(new Node(m, n));
+                        // 这里也可以先置为2，可以减少时间消耗
+                        grid[m][n] = 2;
                     }
                 }
             }
+
         }
-        return 0;
+        return result;
     }
 
-    // 辅函数
-    private static void dfs(LinkedList<Node> points, int[][] grid, int rows, int columns , int row, int column) {
+    private void dfs(LinkedList<Node> queue,  int[][] grid, int i, int j) {
 
-        // 遇到边界
-        if (row < 0 || column < 0 || row == rows || column == columns) {
+        if(grid[i][j] == 2) {
+            return;
+        }
+        if(grid[i][j] == 0)  {
+            queue.addLast(new Node(i, j));
             return;
         }
 
-        if(grid[row][column] == 2) {
-            return;
+        grid[i][j] = 2;
+
+        for(int k = 0; k < 4; k++) {
+            int m = i + position[k];
+            int n = j + position[k +1];
+
+            if(m >= 0 && m < grid.length && n >=0 && n < grid[0].length) {
+                dfs(queue, grid, m, n);
+            }
         }
 
-        // 0 为海洋，也即我们要去寻找过程中的，步骤
-        if (grid[row][column] == 0) {
-            points.addLast(new Node(row, column));
-            return;
-        }
 
-        grid[row][column] = 2;
-        dfs(points, grid, rows, columns, row - 1, column);
-        dfs(points, grid, rows, columns, row + 1, column);
-        dfs(points, grid, rows, columns, row, column - 1);
-        dfs(points, grid, rows, columns, row, column + 1);
     }
 
-    static class Node {
-        public int i;
-        public int j;
+    class Node{
+
+        int i;
+        int j;
+
         public Node(int i, int j) {
             this.i = i;
+            this.j = j;
+        }
+
+        public int getI() {
+            return i;
+        }
+
+        public void setI(int i) {
+            this.i = i;
+        }
+
+        public int getJ() {
+            return j;
+        }
+
+        public void setJ(int j) {
             this.j = j;
         }
     }
