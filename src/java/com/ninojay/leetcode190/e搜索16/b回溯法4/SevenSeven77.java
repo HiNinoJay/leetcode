@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.e搜索17.b回溯法4;
+package com.ninojay.leetcode190.e搜索16.b回溯法4;
 
 import com.ninojay.leetcode190.util.NinoCollectionUtil;
 

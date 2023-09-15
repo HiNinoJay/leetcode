@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.e搜索17.c广度优先搜索3;
+package com.ninojay.leetcode190.e搜索16.c广度优先搜索2;
 
 /**
  * @author : zengzhongjie

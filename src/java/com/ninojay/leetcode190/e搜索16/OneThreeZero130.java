@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.e搜索17;
+package com.ninojay.leetcode190.e搜索16;
 
 import com.ninojay.leetcode190.util.NinoArrayUtil;
 
