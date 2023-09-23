@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.c分割3;
 
+import java.util.Arrays;
+
 /**
  * todo 没学会
  * @author zengzhongjie
@@ -9,57 +11,62 @@ public class NineOne91 {
 
     public static void main(String[] args) {
         String s = "226";
-        System.out.println(numDecodings(s));
+        System.out.println(new NineOne91().numDecodings(s));
     }
 
-    public static int numDecodings(String s) {
-        int n = s.length();
 
-        if (n == 0) {
+    public int numDecodings(String s) {
+
+        if(s.length() == 0) return 0;
+
+        char[] ch = s.toCharArray();
+
+        // 先把 prev 置为 第一个数
+        int prev = ch[0] - '0';
+
+        // 开头为 0 直接返回 0
+        if(prev == 0) {
             return 0;
         }
-        // s.charAt 有可能是0 ～ 9
-        int prev = s.charAt(0) - '0';
 
-        if (prev == 0) {
-            // 开头为0，必不可能解码
-            return 0;
-        }
-
-        if (n == 1) {
-            // 长度为1 ，直接返回，只可能解码为1个字母
+        // 长度为1 直接返回1
+        if(s.length() == 1) {
             return 1;
         }
 
-        int[] dp = new int[n + 1];
-        for(int i = 0; i < dp.length; i++) {
-            dp[i] = 1;
-        }
+        // 动态规划 数组 首先全置为1
+        int[] dp =  new int[s.length()+1];
+        Arrays.fill(dp, 1);
 
-        for (int i = 2; i <= n; ++i) {
-
-            int cur = s.charAt(i-1) - '0';
-
-            if ((prev == 0 || prev > 2) && cur == 0) {
-                // 出现了00， 或者 30 40 50...那必不可能解码了
+        for(int i = 2 ; i <= s.length(); i++) {
+            // 得到当前的数字
+            int cur = ch[i-1] - '0';
+            if((prev == 0 || prev > 2) && cur == 0) {
+                // 00 不行 30 40 50... 直接不行
                 return 0;
             }
 
-            if ((prev < 2 && prev > 0) || prev == 2 && cur < 7) {
-                // prev + cur 必然在 26个字母的范围
-                if (cur != 0) {
+            if((prev == 1) || (prev == 2 && cur < 7)) {
+                //可以划分两个数字
+                if(cur != 0) {
+                    // 11到26（排除20）
+                    // 这个位置可以划分两位数，也可以划分一位数
                     dp[i] = dp[i-2] + dp[i-1];
                 } else {
+                    // 10 或者 20
+                    // 则这个 位置只能两位数划分，所以和 dp[i] 和 dp[i-2]相同
                     dp[i] = dp[i-2];
                 }
             } else {
-                // 只能cur构成可能的解码
+                // 只能划分一个数字
                 dp[i] = dp[i-1];
             }
+            // 当前设置为前一位数
             prev = cur;
         }
-
-        return dp[n];
+        return dp[s.length()];
     }
+
+
 
 }
