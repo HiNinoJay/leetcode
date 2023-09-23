@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.f动态规划28;
+package com.ninojay.leetcode190.f动态规划28.a一维3;
 
 import com.ninojay.leetcode190.util.NinoArrayUtil;
 

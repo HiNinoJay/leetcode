@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.f动态规划28;
+package com.ninojay.leetcode190.f动态规划28.d子序列2;
 
 /**
  * @author : zengzhongjie

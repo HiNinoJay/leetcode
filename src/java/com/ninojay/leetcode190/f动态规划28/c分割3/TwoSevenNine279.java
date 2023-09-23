@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.f动态规划28;
+package com.ninojay.leetcode190.f动态规划28.c分割3;
 
 /**
  * @author zengzhongjie
