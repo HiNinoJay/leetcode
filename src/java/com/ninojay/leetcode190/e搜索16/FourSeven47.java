@@ -1,7 +1,7 @@
 package com.ninojay.leetcode190.e搜索16;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
-import com.ninojay.leetcode190.util.NinoCollectionUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,8 +15,9 @@ public class FourSeven47 {
 
 
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1, 1, 2);
-        NinoCollectionUtil.printListListInteger(new FourSeven47().permuteUnique(nums));
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1, 1, 2);
+        ninoPrintUtil.printListListInteger(new FourSeven47().permuteUnique(nums));
     }
 
 

@@ -1,7 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.a深度优先搜索4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
-import com.ninojay.leetcode190.util.NinoCollectionUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,14 +13,15 @@ import java.util.List;
 public class FourOneSeven417 {
 
     public static void main(String[] args) {
-        int[][] heights = NinoArrayUtil.createTwoDimensionArray("" +
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[][] heights = NinoCreationUtil.createTwoDimensionArray("" +
                 "[[1,2,2,3,5]," +
                 "[3,2,3,4,4]," +
                 "[2,4,5,3,1]," +
                 "[6,7,1,4,5]," +
                 "[5,1,1,2,4]]");
         List<List<Integer>> lists = pacificAtlantic(heights);
-        NinoCollectionUtil.printListListInteger(lists);
+        ninoPrintUtil.printListListInteger(lists);
     }
 
     public static int[] direction = {-1, 0, 1, 0, -1};

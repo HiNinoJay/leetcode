@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.实现排序算法;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * 归并排序
@@ -9,10 +10,11 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class MergeSort {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
         merge_sort(nums, 0, nums.length, new int[nums.length]);
         // 左闭右开
-        NinoArrayUtil.printOneDimensionArray(nums);
+        ninoPrintUtil.printOneDimensionArray(nums);
     }
 
     /**

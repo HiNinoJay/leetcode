@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.z周赛;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.math.BigDecimal;
 
@@ -10,12 +11,13 @@ import java.math.BigDecimal;
  */
 public class SixThreeSixEight6368 {
     public static void main(String[] args) {
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         String word = "86217457695827338571";
         String word1 = "8";
 
         int m = 3;
         int m1 = 10;
-        NinoArrayUtil.printOneDimensionArray(divisibilityArray(word, 4));
+        ninoPrintUtil.printOneDimensionArray(divisibilityArray(word, 4));
     }
 
     public static int[] divisibilityArray(String word, int m) {

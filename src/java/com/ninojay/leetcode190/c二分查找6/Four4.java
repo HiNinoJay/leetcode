@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.c二分查找6;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * todo 没搞懂
@@ -10,8 +10,8 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class Four4 {
 
     public static void main(String[] args) {
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(1, 3);
-        int[] nums2 = NinoArrayUtil.createOneDimensionArray(2);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(1, 3);
+        int[] nums2 = NinoCreationUtil.createOneDimensionArray(2);
         System.out.println(findMedianSortedArrays(nums1, nums2));
 
     }

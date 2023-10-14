@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.i位运算10;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -9,7 +9,7 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class TwoSixEight268 {
 
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(3, 0, 1);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(3, 0, 1);
         System.out.println(missingNumber(nums));
     }
 

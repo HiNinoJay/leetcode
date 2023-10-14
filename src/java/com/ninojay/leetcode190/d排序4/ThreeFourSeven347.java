@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.d排序4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,13 +14,14 @@ import java.util.Map;
 public class ThreeFourSeven347 {
 
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1,1,1,2,2,3);
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(1);
-        int[] nums2 = NinoArrayUtil.createOneDimensionArray(1, 2);
-        int[] nums3 = NinoArrayUtil.createOneDimensionArray(3, 0 ,1, 0);
-        int[] nums4 = NinoArrayUtil.createOneDimensionArray(-1, -1);
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1,1,1,2,2,3);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(1);
+        int[] nums2 = NinoCreationUtil.createOneDimensionArray(1, 2);
+        int[] nums3 = NinoCreationUtil.createOneDimensionArray(3, 0 ,1, 0);
+        int[] nums4 = NinoCreationUtil.createOneDimensionArray(-1, -1);
         int k = 1;
-        NinoArrayUtil.printOneDimensionArray(topKFrequent(nums4, k));
+        ninoPrintUtil.printOneDimensionArray(topKFrequent(nums4, k));
     }
 
     /**

@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.d排序4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -8,9 +9,10 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class SevenFive75 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(2,0,1);
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(2,0,1);
         sortColors(nums);
-        NinoArrayUtil.printOneDimensionArray(nums);
+        ninoPrintUtil.printOneDimensionArray(nums);
     }
 
 

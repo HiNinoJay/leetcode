@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.b双指针7;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -9,9 +10,10 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class OneSisSeven167 {
 
     public static void main(String[] args) {
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] numbers = {2,7,11,15};
         int target = 9;
-        NinoArrayUtil.printOneDimensionArray(twoSum(numbers, target));
+        ninoPrintUtil.printOneDimensionArray(twoSum(numbers, target));
     }
 
     public static int[] twoSum(int[] numbers, int target) {

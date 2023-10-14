@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -10,15 +11,15 @@ public class OneThreeZero130 {
 
     public static void main(String[] args) {
 
-        char[][] board = NinoArrayUtil.createTwoDimensionCharArray("[" +
+        char[][] board = NinoCreationUtil.createTwoDimensionCharArray("[" +
                 "[\"X\",\"X\",\"X\",\"X\"]," +
                 "[\"X\",\"O\",\"O\",\"X\"]," +
                 "[\"X\",\"X\",\"O\",\"X\"]," +
                 "[\"X\",\"O\",\"X\",\"X\"]]");
-        char[][] board1 = NinoArrayUtil.createTwoDimensionCharArray("[[\"X\"]]");
-        char[][] board2 = NinoArrayUtil.createTwoDimensionCharArray("[[\"O\",\"O\"],[\"O\",\"O\"]]");
+        char[][] board1 = NinoCreationUtil.createTwoDimensionCharArray("[[\"X\"]]");
+        char[][] board2 = NinoCreationUtil.createTwoDimensionCharArray("[[\"O\",\"O\"],[\"O\",\"O\"]]");
         solve(board);
-        NinoArrayUtil.printTwoDimensionCharArray(board2);
+        NinoPrintUtil.printAllType(board2);
     }
     public static void solve(char[][] board) {
 

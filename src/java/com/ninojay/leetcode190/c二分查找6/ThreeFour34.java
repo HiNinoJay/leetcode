@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.c二分查找6;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -8,14 +9,15 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class ThreeFour34 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(5,7,7,8,8,10);
+
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(5,7,7,8,8,10);
         int target = 6;
 
         int target1 = 1;
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(1, 3);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(1, 3);
 
-
-        NinoArrayUtil.printOneDimensionArray(searchRange(nums, target));
+        ninoPrintUtil.printOneDimensionArray(searchRange(nums, target));
 
     }
 

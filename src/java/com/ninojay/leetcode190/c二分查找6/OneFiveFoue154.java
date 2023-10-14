@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.c二分查找6;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -8,7 +8,7 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class OneFiveFoue154 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(2,2,2,0,1);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(2,2,2,0,1);
         System.out.println(findMin(nums));
     }
 

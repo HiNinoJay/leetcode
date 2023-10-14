@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.d排序4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -8,9 +8,9 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class TwoOneFIve215 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(3,2,1,5,6,4);
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(3,2,3,1,2,4,5,5,6);
-        int[] nums2 = NinoArrayUtil.createOneDimensionArray(99, 99);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(3,2,1,5,6,4);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(3,2,3,1,2,4,5,5,6);
+        int[] nums2 = NinoCreationUtil.createOneDimensionArray(99, 99);
         int k = 2;
         System.out.println(findKthLargest(nums, k));
     }

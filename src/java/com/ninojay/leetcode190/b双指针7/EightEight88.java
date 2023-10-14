@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.b双指针7;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 
 /**
@@ -9,12 +10,13 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class EightEight88 {
     public static void main(String[] args) {
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums1 = {0};
         int m = 0;
         int[] nums2 = {1};
         int n = 1;
         merge(nums1, m, nums2, n);
-        NinoArrayUtil.printOneDimensionArray(nums1);
+        ninoPrintUtil.printOneDimensionArray(nums1);
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {

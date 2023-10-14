@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.b二维3;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -8,9 +9,10 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class FiveFourTwo542 {
     public static void main(String[] args) {
-        int[][] mat = NinoArrayUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[0,0,0]]");
-        int[][] mat1 = NinoArrayUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[1,1,1]]");
-        NinoArrayUtil.printTwoDimensionArray(updateMatrix(mat1));
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[][] mat = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[0,0,0]]");
+        int[][] mat1 = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[1,1,1]]");
+        ninoPrintUtil.printTwoDimensionArray(updateMatrix(mat1));
     }
 
 

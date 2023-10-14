@@ -1,7 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.d子序列2;
 
 import cn.hutool.core.lang.Assert;
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class ThreeZeroZero300 {
     public static void main(String[] args) {
 
-        int[] nums = NinoArrayUtil.createOneDimensionArray(10,9,2,5,3,7,101,18);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(10,9,2,5,3,7,101,18);
         Assert.isTrue(new ThreeZeroZero300().lengthOfLIS(nums) == 4);
     }
 

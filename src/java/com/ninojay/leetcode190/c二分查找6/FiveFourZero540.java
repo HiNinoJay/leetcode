@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.c二分查找6;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -8,9 +8,9 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class FiveFourZero540 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1,1,2,3,3,4,4,8,8);
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(3,3,7,7,10,11,11);
-        int[] nums2 = NinoArrayUtil.createOneDimensionArray(1);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1,1,2,3,3,4,4,8,8);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(3,3,7,7,10,11,11);
+        int[] nums2 = NinoCreationUtil.createOneDimensionArray(1);
         System.out.println(singleNonDuplicate(nums1));
     }
 

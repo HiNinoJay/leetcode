@@ -10,7 +10,7 @@ import com.ninojay.leetcode190.util.NinoUtil;
 public class SixSeven67 {
 
     public static void main(String[] args) {
-        new NinoPrintUtil().printAllType(new SixSeven67().addBinary("11", "1"));
+        NinoPrintUtil.printAllType(new SixSeven67().addBinary("11", "1"));
     }
 
     public String addBinary(String a, String b) {

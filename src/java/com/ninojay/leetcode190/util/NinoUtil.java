@@ -10,5 +10,4 @@ public class NinoUtil {
         nums[a] = nums[b];
         nums[b] = temp;
     }
-
 }

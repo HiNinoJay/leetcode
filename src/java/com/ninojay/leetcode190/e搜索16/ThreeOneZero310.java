@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.*;
 
@@ -11,7 +11,7 @@ import java.util.*;
 public class ThreeOneZero310 {
     public static void main(String[] args) {
         int n = 4;
-        int[][] edges = NinoArrayUtil.createTwoDimensionArray("[[1,0],[1,2],[1,3]]");
+        int[][] edges = NinoCreationUtil.createTwoDimensionArray("[[1,0],[1,2],[1,3]]");
         new ThreeOneZero310().findMinHeightTrees(n, edges).forEach(System.out::println);
     }
 

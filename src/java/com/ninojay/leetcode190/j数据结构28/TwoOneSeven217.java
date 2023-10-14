@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.j数据结构28;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.HashSet;
 
@@ -10,7 +10,7 @@ import java.util.HashSet;
  */
 public class TwoOneSeven217 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1, 2, 3, 1);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1, 2, 3, 1);
         System.out.println(containsDuplicate(nums));
     }
 

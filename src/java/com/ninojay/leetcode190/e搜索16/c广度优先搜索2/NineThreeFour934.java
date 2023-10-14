@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16.c广度优先搜索2;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.LinkedList;
 
@@ -11,18 +11,18 @@ import java.util.LinkedList;
  */
 public class NineThreeFour934 {
     public static void main(String[] args) {
-        int[][] grid = NinoArrayUtil.createTwoDimensionArray("[" +
+        int[][] grid = NinoCreationUtil.createTwoDimensionArray("[" +
                 "[1,1,1,1,1], " +
                 "[1,0,0,0,1], " +
                 "[1,0,1,0,1], " +
                 "[1,0,0,0,1], " +
                 "[1,1,1,1,1]]");
 
-        int[][] grid1 = NinoArrayUtil.createTwoDimensionArray("[" +
+        int[][] grid1 = NinoCreationUtil.createTwoDimensionArray("[" +
                 "[0,1]," +
                 "[1,0]]"); // 1
 
-        int[][] grid2 = NinoArrayUtil.createTwoDimensionArray("[" +
+        int[][] grid2 = NinoCreationUtil.createTwoDimensionArray("[" +
                 "[0,1,0]," +
                 "[0,0,0]," +
                 "[0,0,1]]"); // 2

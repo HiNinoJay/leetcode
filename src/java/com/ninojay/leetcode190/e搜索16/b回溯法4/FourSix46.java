@@ -1,7 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.b回溯法4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
-import com.ninojay.leetcode190.util.NinoCollectionUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +13,9 @@ import java.util.List;
 public class FourSix46 {
 
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1, 2, 3);
-        NinoCollectionUtil.printListListInteger(permute(nums));
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1, 2, 3);
+        ninoPrintUtil.printListListInteger(permute(nums));
     }
 
     public static List<List<Integer>> permute(int[] nums) {

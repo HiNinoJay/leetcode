@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.f动态规划28.b二维3;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -9,8 +9,8 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class TwoTwoOne221 {
 
     public static void main(String[] args) {
-        char[][] matrix = NinoArrayUtil.createTwoDimensionCharArray("[[\"0\",\"1\"],[\"1\",\"0\"]]");
-        char[][] matrix1 = NinoArrayUtil.createTwoDimensionCharArray("[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]");
+        char[][] matrix = NinoCreationUtil.createTwoDimensionCharArray("[[\"0\",\"1\"],[\"1\",\"0\"]]");
+        char[][] matrix1 = NinoCreationUtil.createTwoDimensionCharArray("[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]");
         System.out.println(maximalSquare(matrix1));
     }
 

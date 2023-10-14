@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.b双指针7;
 
-import com.ninojay.leetcode190.util.NinoCollectionUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.List;
 
@@ -13,22 +13,22 @@ public class FiveTwoFour524 {
     public static void main(String[] args) {
         // apple
         String s = "abpcplea";
-        List<String> dictionary = NinoCollectionUtil.createStringArrayList("ale","apple","monkey","plea");
+        List<String> dictionary = NinoCreationUtil.createStringArrayList("ale","apple","monkey","plea");
 
         // a
         String s1 = "abpcplea";
-        List<String> dictionary1 = NinoCollectionUtil.createStringArrayList("a","b","c");
+        List<String> dictionary1 = NinoCreationUtil.createStringArrayList("a","b","c");
 
         // abc
         String s2 = "abce";
-        List<String> dictionary2 = NinoCollectionUtil.createStringArrayList("abe", "abc");
+        List<String> dictionary2 = NinoCreationUtil.createStringArrayList("abe", "abc");
 
         // "ewaf"
         String s3 = "aewfafwafjlwajflwajflwafj";
-        List<String> dictionary3 = NinoCollectionUtil.createStringArrayList("apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf");
+        List<String> dictionary3 = NinoCreationUtil.createStringArrayList("apple","ewaf","awefawfwaf","awef","awefe","ewafeffewafewf");
 
         String s4 = "abpcplea";
-        List<String> dictionary4 = NinoCollectionUtil.createStringArrayList("ale","apple","monkey","plea", "abpcplaaa","abpcllllll","abccclllpppeeaaaa");
+        List<String> dictionary4 = NinoCreationUtil.createStringArrayList("ale","apple","monkey","plea", "abpcplaaa","abpcllllll","abccclllpppeeaaaa");
 
         System.out.println(findLongestWord(s4, dictionary4));
     }

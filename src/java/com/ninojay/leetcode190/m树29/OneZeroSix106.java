@@ -1,7 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.HashMap;
 
@@ -12,11 +12,11 @@ import java.util.HashMap;
 public class OneZeroSix106 {
 
     public static void main(String[] args) {
-        int[] inorder = NinoArrayUtil.createOneDimensionArray(9,3,15,20,7);
-        int[] inorder1 = NinoArrayUtil.createOneDimensionArray(-1);
+        int[] inorder = NinoCreationUtil.createOneDimensionArray(9,3,15,20,7);
+        int[] inorder1 = NinoCreationUtil.createOneDimensionArray(-1);
 
-        int[] postorder = NinoArrayUtil.createOneDimensionArray(9,15,7,20,3);
-        int[] postorder1 = NinoArrayUtil.createOneDimensionArray(-1);
+        int[] postorder = NinoCreationUtil.createOneDimensionArray(9,15,7,20,3);
+        int[] postorder1 = NinoCreationUtil.createOneDimensionArray(-1);
         TreeNode.printTreeNode(buildTree(inorder1, postorder1));
     }
 

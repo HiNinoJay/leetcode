@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16.b回溯法4;
 
-import com.ninojay.leetcode190.util.NinoCollectionUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,10 @@ public class SevenSeven77 {
     static List<Integer> temp_result = new ArrayList<>();
 
     public static void main(String[] args) {
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int n = 4;
         int k = 2;
-        NinoCollectionUtil.printListListInteger(new SevenSeven77().combine(n, k));
+        ninoPrintUtil.printListListInteger(new SevenSeven77().combine(n, k));
     }
 
     public List<List<Integer>> combine(int n, int k) {

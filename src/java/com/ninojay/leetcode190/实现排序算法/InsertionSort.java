@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.实现排序算法;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 import com.ninojay.leetcode190.util.NinoUtil;
 
 /**
@@ -10,9 +11,10 @@ import com.ninojay.leetcode190.util.NinoUtil;
  */
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
         insertion_sort(nums);
-        NinoArrayUtil.printOneDimensionArray(nums);
+        ninoPrintUtil.printOneDimensionArray(nums);
     }
 
     /**

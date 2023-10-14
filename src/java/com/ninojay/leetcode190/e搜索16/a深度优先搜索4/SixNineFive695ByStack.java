@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16.a深度优先搜索4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 import java.util.LinkedList;
 
@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class SixNineFive695ByStack {
 
     public static void main(String[] args) {
-        int[][] grid  = NinoArrayUtil.createTwoDimensionArray(
+        int[][] grid  = NinoCreationUtil.createTwoDimensionArray(
                      "[[0,0,1,0,0,0,0,1,0,0,0,0,0]," +
                         "[0,0,0,0,0,0,0,1,1,1,0,0,0]," +
                         "[0,1,1,0,1,0,0,0,0,0,0,0,0]," +

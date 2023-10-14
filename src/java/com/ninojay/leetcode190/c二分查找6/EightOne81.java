@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.c二分查找6;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -8,9 +8,9 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
  */
 public class EightOne81 {
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(2,5,6,0,0,1,2);
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(1);
-        int[] nums2 = NinoArrayUtil.createOneDimensionArray(1, 0, 1, 1, 1);
+        int[] nums = NinoCreationUtil.createOneDimensionArray(2,5,6,0,0,1,2);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(1);
+        int[] nums2 = NinoCreationUtil.createOneDimensionArray(1, 0, 1, 1, 1);
         int target = 10;
 
         System.out.println(search(nums, target));

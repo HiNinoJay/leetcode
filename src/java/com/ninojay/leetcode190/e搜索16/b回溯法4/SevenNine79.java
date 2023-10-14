@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16.b回溯法4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -10,7 +10,7 @@ public class SevenNine79 {
 
 
     public static void main(String[] args) {
-        char[][] board = NinoArrayUtil.createTwoDimensionCharArray("[" +
+        char[][] board = NinoCreationUtil.createTwoDimensionCharArray("[" +
                 "[\"A\",\"B\",\"C\",\"E\"]," +
                 "[\"S\",\"F\",\"C\",\"S\"]," +
                 "[\"A\",\"D\",\"E\",\"E\"]]");

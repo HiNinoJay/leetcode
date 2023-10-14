@@ -1,0 +1,101 @@
+package com.ninojay.leetcode190.util;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author zengzhongjie
+ * @date 2023/2/15
+ */
+public class NinoCreationUtil {
+
+
+    public static List<String> createStringArrayList(String... strings) {
+        ArrayList<String> result = new ArrayList<String>();
+        for(String temp : strings) {
+            result.add(temp);
+        }
+        return result;
+    }
+
+
+    public static int[] createOneDimensionArray(Integer... nums) {
+        int[] result = new int[nums.length];
+        for(int i = 0; i < nums.length; i++) {
+            result[i] = nums[i];
+        }
+        return result;
+    }
+
+
+
+    public static int[][] createTwoDimensionArray(String s) {
+
+        if(StringUtils.isBlank(s)) {
+            return null;
+        }
+        s = s.replaceAll(" ", "");
+        // 因为多了一个最外围的 '['
+        int rowCounts = -1;
+        // 这里计算列的方法是算','的数量（最后一行少了一个','，所以初值为1），','总数处以行数，即为列数
+        int columnCounts = 1;
+        ArrayList<Integer> nums = new ArrayList<>();
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) == '[') {
+                rowCounts++;
+            }
+            if(s.charAt(i) == ',') {
+                columnCounts++;
+            }
+            if(s.charAt(i) != '[' && s.charAt(i) != ']' && s.charAt(i) != ',') {
+
+                nums.add((int)s.charAt(i) - '0');
+            }
+        }
+        columnCounts = columnCounts / rowCounts;
+        int[][] result = new int[rowCounts][columnCounts];
+        int index = 0;
+        for(int i = 0; i < rowCounts ; i++) {
+            for(int j = 0; j < columnCounts ; j++) {
+                result[i][j] = nums.get(index++);
+            }
+        }
+        return result;
+    }
+
+    public static char[][] createTwoDimensionCharArray(String s) {
+        if(StringUtils.isBlank(s)) {
+            return null;
+        }
+        s = s.replaceAll(" ", "");
+        // 因为多了一个最外围的 '['
+        int rowCounts = -1;
+        // 这里计算列的方法是算','的数量（最后一行少了一个','，所以初值为1），','总数处以行数，即为列数
+        int columnCounts = 1;
+        ArrayList<Character> words = new ArrayList<>();
+        for(int i = 0; i < s.length(); i++) {
+            if(s.charAt(i) == '[') {
+                rowCounts++;
+            }
+            if(s.charAt(i) == ',') {
+                columnCounts++;
+            }
+            if(s.charAt(i) != '[' && s.charAt(i) != ']' && s.charAt(i) != ',' && s.charAt(i) != '"') {
+                words.add(s.charAt(i));
+            }
+        }
+        columnCounts = columnCounts / rowCounts;
+        char[][] result = new char[rowCounts][columnCounts];
+        int index = 0;
+        for(int i = 0; i < rowCounts ; i++) {
+            for(int j = 0; j < columnCounts ; j++) {
+                result[i][j] = words.get(index++);
+            }
+        }
+        return result;
+    }
+
+
+}

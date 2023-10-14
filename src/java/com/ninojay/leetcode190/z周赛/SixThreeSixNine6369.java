@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.z周赛;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -9,9 +10,10 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class SixThreeSixNine6369 {
 
     public static void main(String[] args) {
-        int[] nums = NinoArrayUtil.createOneDimensionArray(10,4,8,3);
-        int[] nums1 = NinoArrayUtil.createOneDimensionArray(1);
-        NinoArrayUtil.printOneDimensionArray(leftRigthDifference(nums1));
+        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
+        int[] nums = NinoCreationUtil.createOneDimensionArray(10,4,8,3);
+        int[] nums1 = NinoCreationUtil.createOneDimensionArray(1);
+        ninoPrintUtil.printOneDimensionArray(leftRigthDifference(nums1));
 
     }
     public static int[] leftRigthDifference(int[] nums) {

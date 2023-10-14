@@ -1,6 +1,6 @@
 package com.ninojay.leetcode190.e搜索16.a深度优先搜索4;
 
-import com.ninojay.leetcode190.util.NinoArrayUtil;
+import com.ninojay.leetcode190.util.NinoCreationUtil;
 
 /**
  * @author zengzhongjie
@@ -9,7 +9,7 @@ import com.ninojay.leetcode190.util.NinoArrayUtil;
 public class FiveFourSeven547 {
 
     public static void main(String[] args) {
-        int[][] isConnected = NinoArrayUtil.createTwoDimensionArray("" +
+        int[][] isConnected = NinoCreationUtil.createTwoDimensionArray("" +
                 "[[1,1,0]," +
                 "[1,1,0]," +
                 "[0,0,1]]");
