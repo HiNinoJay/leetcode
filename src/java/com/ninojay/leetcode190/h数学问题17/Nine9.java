@@ -1,12 +1,14 @@
 package com.ninojay.leetcode190.h数学问题17;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/27
  */
 public class Nine9 {
     public static void main(String[] args) {
-        System.out.println(isPalindrome(-21));
+        NinoPrintUtil.printAllType(isPalindrome(-21));
     }
 
     public static boolean isPalindrome(int x) {

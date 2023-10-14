@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.c分割3;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,7 +14,7 @@ public class OneThreeNine139 {
 
         String s = "applepenapple";
         List<String> wordDict = Arrays.asList("apple", "pen");
-        System.out.println(new OneThreeNine139().wordBreak(s,  wordDict));
+        NinoPrintUtil.printAllType(new OneThreeNine139().wordBreak(s,  wordDict));
     }
 
 

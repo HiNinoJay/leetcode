@@ -1,12 +1,14 @@
 package com.ninojay.leetcode190.f动态规划28.c分割3;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/22
  */
 public class TwoSevenNine279 {
     public static void main(String[] args) {
-        System.out.println(new TwoSevenNine279().numSquares(13));
+        NinoPrintUtil.printAllType(new TwoSevenNine279().numSquares(13));
     }
 
     public int numSquares(int n) {

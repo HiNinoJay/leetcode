@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -17,7 +18,7 @@ public class SixFiveThree653 {
         TreeNode root2 = TreeNode.createBinarySearchTreeByInteger(1);
         TreeNode root3 = TreeNode.createBinarySearchTreeByInteger(2,1,3);
         int k = 28;
-        System.out.println(findTarget(root3, 4));
+        NinoPrintUtil.printAllType(findTarget(root3, 4));
     }
     public static boolean findTarget(TreeNode root, int k) {
         if(root == null) return false;

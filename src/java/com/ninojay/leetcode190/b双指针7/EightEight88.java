@@ -10,13 +10,12 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
  */
 public class EightEight88 {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums1 = {0};
         int m = 0;
         int[] nums2 = {1};
         int n = 1;
         merge(nums1, m, nums2, n);
-        ninoPrintUtil.printOneDimensionArray(nums1);
+        NinoPrintUtil.printAllType(nums1);
     }
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {

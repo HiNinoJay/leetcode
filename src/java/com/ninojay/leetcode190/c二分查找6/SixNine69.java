@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.c二分查找6;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/14
@@ -7,7 +9,7 @@ package com.ninojay.leetcode190.c二分查找6;
 public class SixNine69 {
     public static void main(String[] args) {
         int x = 4;
-        System.out.println(mySqrt(x));
+        NinoPrintUtil.printAllType(mySqrt(x));
     }
 
     /**

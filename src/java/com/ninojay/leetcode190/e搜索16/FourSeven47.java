@@ -15,9 +15,8 @@ public class FourSeven47 {
 
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(1, 1, 2);
-        ninoPrintUtil.printListListInteger(new FourSeven47().permuteUnique(nums));
+        NinoPrintUtil.printAllType(new FourSeven47().permuteUnique(nums));
     }
 
 

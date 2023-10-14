@@ -1,6 +1,8 @@
 package com.ninojay.leetcode190.a贪心10;
 
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 
 /**
@@ -12,7 +14,7 @@ public class FourThreeFive435 {
     public static void main(String[] args) {
         FourThreeFive435 fourThreeFive435 = new FourThreeFive435();
         int[][] data = {{1,2},{2,3},{3,4},{1,3}};
-        System.out.println(fourThreeFive435.eraseOverlapIntervals(data));
+        NinoPrintUtil.printAllType(fourThreeFive435.eraseOverlapIntervals(data));
     }
 
     public int eraseOverlapIntervals(int[][] intervals) {

@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.k字符串10.a字符串比较4;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.*;
 
 /**
@@ -10,7 +12,7 @@ public class TwoFourTwo242 {
     public static void main(String[] args) {
         String s = "rat";
         String t = "cat";
-        System.out.println(isAnagram(s, t));
+        NinoPrintUtil.printAllType(isAnagram(s, t));
     }
 
     public static boolean isAnagram(String s, String t) {

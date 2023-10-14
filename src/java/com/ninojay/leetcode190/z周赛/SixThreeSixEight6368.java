@@ -11,13 +11,12 @@ import java.math.BigDecimal;
  */
 public class SixThreeSixEight6368 {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         String word = "86217457695827338571";
         String word1 = "8";
 
         int m = 3;
         int m1 = 10;
-        ninoPrintUtil.printOneDimensionArray(divisibilityArray(word, 4));
+        NinoPrintUtil.printAllType(divisibilityArray(word, 4));
     }
 
     public static int[] divisibilityArray(String word, int m) {

@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.l链表10.b其他链表操作2;
 
 import com.ninojay.leetcode190.struct.ListNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.LinkedList;
 
@@ -13,7 +14,7 @@ public class TwoThreeFour234 {
     public static void main(String[] args) {
         ListNode head = ListNode.createSinglyLinkedList(1, 2, 2, 1);
         ListNode head1 = ListNode.createSinglyLinkedList(1, 2);
-        System.out.println(isPalindrome(head1));
+        NinoPrintUtil.printAllType(isPalindrome(head1));
     }
 
     public static boolean isPalindrome(ListNode head) {

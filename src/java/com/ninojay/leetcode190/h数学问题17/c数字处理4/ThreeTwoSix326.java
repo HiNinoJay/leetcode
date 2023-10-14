@@ -1,12 +1,14 @@
 package com.ninojay.leetcode190.h数学问题17.c数字处理4;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/27
  */
 public class ThreeTwoSix326 {
     public static void main(String[] args) {
-        System.out.println(isPowerOfThree(27));
+        NinoPrintUtil.printAllType(isPowerOfThree(27));
 
     }
 

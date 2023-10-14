@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +16,7 @@ public class NineFour94 {
 
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(1, null, 2, 3);
-        for(Integer num : inorderTraversal(root)) {
-            System.out.print(num + " ");
-        }
+        NinoPrintUtil.printAllType(inorderTraversal(root));
     }
 
     public static List<Integer> inorderTraversal(TreeNode root) {

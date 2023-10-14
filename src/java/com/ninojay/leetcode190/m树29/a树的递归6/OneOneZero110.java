@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29.a树的递归6;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -9,7 +10,7 @@ import com.ninojay.leetcode190.struct.TreeNode;
 public class OneOneZero110 {
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(3,9,20,null,null,15,7);
-        System.out.println(isBalanced(root));
+        NinoPrintUtil.printAllType(isBalanced(root));
     }
 
     public static boolean isBalanced(TreeNode root) {

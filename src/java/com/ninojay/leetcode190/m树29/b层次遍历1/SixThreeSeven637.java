@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29.b层次遍历1;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -16,9 +17,7 @@ public class SixThreeSeven637 {
 
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(3,9,20,null,null,15,7);
-        for(Double num : averageOfLevels(root)) {
-            System.out.print(num + " ");
-        }
+        NinoPrintUtil.printAllType(averageOfLevels(root));
     }
 
     public static List<Double> averageOfLevels(TreeNode root) {

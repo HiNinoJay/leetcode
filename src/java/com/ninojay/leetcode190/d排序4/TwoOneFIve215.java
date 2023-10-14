@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.d排序4;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -12,7 +13,7 @@ public class TwoOneFIve215 {
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(3,2,3,1,2,4,5,5,6);
         int[] nums2 = NinoCreationUtil.createOneDimensionArray(99, 99);
         int k = 2;
-        System.out.println(findKthLargest(nums, k));
+        NinoPrintUtil.printAllType(findKthLargest(nums, k));
     }
 
     public static int findKthLargest(int[] nums, int k) {

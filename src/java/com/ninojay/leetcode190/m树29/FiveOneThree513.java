@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.LinkedList;
 
@@ -12,7 +13,7 @@ public class FiveOneThree513 {
 
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(1,2,3,4,null,5,6,null,null,7);
-        System.out.println(findBottomLeftValue(root));
+        NinoPrintUtil.printAllType(findBottomLeftValue(root));
     }
 
     public static int findBottomLeftValue(TreeNode root) {

@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.c分割3;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 
 /**
@@ -11,7 +13,7 @@ public class NineOne91 {
 
     public static void main(String[] args) {
         String s = "226";
-        System.out.println(new NineOne91().numDecodings(s));
+        NinoPrintUtil.printAllType(new NineOne91().numDecodings(s));
     }
 
 

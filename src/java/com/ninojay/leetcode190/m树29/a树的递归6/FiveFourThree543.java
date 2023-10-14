@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29.a树的递归6;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -10,7 +11,7 @@ public class FiveFourThree543 {
     private static int length = 0;
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(1, 2, 3, 4, 5, null, null);
-        System.out.println(diameterOfBinaryTree(root));
+        NinoPrintUtil.printAllType(diameterOfBinaryTree(root));
     }
 
     public static int diameterOfBinaryTree(TreeNode root) {

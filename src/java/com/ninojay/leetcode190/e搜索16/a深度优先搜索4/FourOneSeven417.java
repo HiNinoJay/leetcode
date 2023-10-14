@@ -13,7 +13,6 @@ import java.util.List;
 public class FourOneSeven417 {
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[][] heights = NinoCreationUtil.createTwoDimensionArray("" +
                 "[[1,2,2,3,5]," +
                 "[3,2,3,4,4]," +
@@ -21,7 +20,7 @@ public class FourOneSeven417 {
                 "[6,7,1,4,5]," +
                 "[5,1,1,2,4]]");
         List<List<Integer>> lists = pacificAtlantic(heights);
-        ninoPrintUtil.printListListInteger(lists);
+        NinoPrintUtil.printAllType(lists);
     }
 
     public static int[] direction = {-1, 0, 1, 0, -1};

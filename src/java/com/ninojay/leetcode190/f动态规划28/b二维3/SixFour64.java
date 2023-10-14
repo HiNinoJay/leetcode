@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.b二维3;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -10,7 +11,7 @@ public class SixFour64 {
 
     public static void main(String[] args) {
         int[][] grid = NinoCreationUtil.createTwoDimensionArray("[[1,3,1],[1,5,1],[4,2,1]]");
-        System.out.println(minPathSum(grid));
+        NinoPrintUtil.printAllType(minPathSum(grid));
     }
 
     public static int minPathSum(int[][] grid) {

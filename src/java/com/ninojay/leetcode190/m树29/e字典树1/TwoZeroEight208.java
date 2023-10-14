@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.m树29.e字典树1;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/25
@@ -9,11 +11,11 @@ public class TwoZeroEight208 {
 
         Trie trie = new Trie();
         trie.insert("apple");
-        System.out.println(trie.search("apple")); // true
-        System.out.println(trie.search("app")); // false
-        System.out.println(trie.startsWith("app")); // true
+        NinoPrintUtil.printAllType(trie.search("apple")); // true
+        NinoPrintUtil.printAllType(trie.search("app")); // false
+        NinoPrintUtil.printAllType(trie.startsWith("app")); // true
         trie.insert("app");
-        System.out.println(trie.search("app")); // true
+        NinoPrintUtil.printAllType(trie.search("app")); // true
 
     }
 

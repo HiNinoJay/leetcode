@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -14,8 +16,7 @@ public class SevenSixThree763{
         String s = "ababcbacadefegdehijhklij";
         String s1 = "eccbbbbdec";
         String s2 = "qiejxqfnqceocmy";
-        List<Integer> result = partitionLabels(s);
-        result.forEach(num -> System.out.print(num + " "));
+        NinoPrintUtil.printAllType(partitionLabels(s));
     }
 
     public static List<Integer> partitionLabels(String s) {

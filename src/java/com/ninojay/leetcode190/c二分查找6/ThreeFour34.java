@@ -10,15 +10,13 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
 public class ThreeFour34 {
     public static void main(String[] args) {
 
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(5,7,7,8,8,10);
         int target = 6;
 
         int target1 = 1;
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(1, 3);
 
-        ninoPrintUtil.printOneDimensionArray(searchRange(nums, target));
-
+        NinoPrintUtil.printAllType(searchRange(nums, target));
     }
 
     public static int[] searchRange(int[] nums, int target) {

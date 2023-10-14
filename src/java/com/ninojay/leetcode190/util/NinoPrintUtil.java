@@ -30,17 +30,16 @@ public class NinoPrintUtil<T> {
             }
             Object o1 = list1.get(0);
             if(o1 instanceof List) {
+                // 二维列表
                 List list2 = (List) o1;
                 if(CollectionUtils.isEmpty(list2)) {
                     System.out.println("内层集合为空 ");
                     return;
                 }
-                Object o2 = list2.get(0);
-                if(o2 instanceof Integer) {
-                    NinoPrintUtil.printListListInteger((List<List<Integer>>) object);
-                }
+                NinoPrintUtil.printTwoDimensionList((List<List>) object);
             } else {
-
+				// 一维列表
+                NinoPrintUtil.printOneDimensionList(list1);
             }
         } else {
             System.out.println(object);
@@ -52,7 +51,7 @@ public class NinoPrintUtil<T> {
      * 打印一位数组
      * @param data
      */
-    public static void printOneDimensionArray(int[] data) {
+    private static void printOneDimensionArray(int[] data) {
 
         System.out.print("该一维数组：");
         Arrays.stream(data).forEach(num -> System.out.print(num + " "));
@@ -63,7 +62,7 @@ public class NinoPrintUtil<T> {
      * 打印二维数组
      * @param data
      */
-    public static void printTwoDimensionArray(int[][] data) {
+    private static void printTwoDimensionArray(int[][] data) {
 
         System.out.println("该二维数组：");
         for(int i = 0; i < data.length; i++) {
@@ -74,7 +73,7 @@ public class NinoPrintUtil<T> {
         }
     }
 
-    public static void printTwoDimensionCharArray(char[][] data) {
+    private static void printTwoDimensionCharArray(char[][] data) {
         System.out.println("该二维数组：");
         for(int i = 0; i < data.length; i++) {
             for (int j = 0; j < data[i].length; j++) {
@@ -85,23 +84,27 @@ public class NinoPrintUtil<T> {
     }
 
 
-    public static void printListListInteger(List<List<Integer>> lists) {
-        if(lists == null) {
-            System.out.println("无数据可打印");
-            return;
-        }
+    private static void printTwoDimensionList(List<List> lists) {
+
         StringBuilder sb = new StringBuilder();
         sb.append("[");
-        for(List<Integer> list : lists) {
+        lists.forEach(list -> {
             sb.append("[");
-            for(Integer i : list) {
-                sb.append(i + ",");
-            }
+            list.forEach(temp -> {
+                sb.append(temp + ",");
+            });
             sb.deleteCharAt(sb.length() - 1);
             sb.append("],");
-        }
+        });
         sb.deleteCharAt(sb.length() - 1);
         sb.append("]");
         System.out.println(sb);
+    }
+
+    private static void printOneDimensionList(List list) {
+        System.out.println("该列表数据如下：");
+        list.forEach(temp -> {
+            System.out.print(temp + " ");
+        });
     }
 }

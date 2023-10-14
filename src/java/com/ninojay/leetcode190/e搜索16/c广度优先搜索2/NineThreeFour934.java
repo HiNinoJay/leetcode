@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.c广度优先搜索2;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.LinkedList;
 
@@ -27,7 +28,7 @@ public class NineThreeFour934 {
                 "[0,0,0]," +
                 "[0,0,1]]"); // 2
 
-        System.out.println(new NineThreeFour934().shortestBridge(grid));
+        NinoPrintUtil.printAllType(new NineThreeFour934().shortestBridge(grid));
     }
 
     private int[] position = new int[]{-1, 0, 1, 0, -1};

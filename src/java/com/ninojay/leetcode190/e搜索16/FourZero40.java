@@ -34,7 +34,7 @@ public class FourZero40 {
         int target3 = 27;
         List<List<Integer>> lists = combinationSum2(candidates3, target3);
 
-        NinoPrintUtil.printListListInteger(lists);
+        NinoPrintUtil.printAllType(lists);
     }
 
 

@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.c二分查找6;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -13,7 +14,7 @@ public class EightOne81 {
         int[] nums2 = NinoCreationUtil.createOneDimensionArray(1, 0, 1, 1, 1);
         int target = 10;
 
-        System.out.println(search(nums, target));
+        NinoPrintUtil.printAllType(search(nums, target));
     }
 
     public static boolean search(int[] nums, int target) {

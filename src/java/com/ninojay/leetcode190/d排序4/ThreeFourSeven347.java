@@ -21,7 +21,7 @@ public class ThreeFourSeven347 {
         int[] nums3 = NinoCreationUtil.createOneDimensionArray(3, 0 ,1, 0);
         int[] nums4 = NinoCreationUtil.createOneDimensionArray(-1, -1);
         int k = 1;
-        ninoPrintUtil.printOneDimensionArray(topKFrequent(nums4, k));
+        NinoPrintUtil.printAllType(topKFrequent(nums4, k));
     }
 
     /**

@@ -9,10 +9,9 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
  */
 public class SevenFive75 {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(2,0,1);
         sortColors(nums);
-        ninoPrintUtil.printOneDimensionArray(nums);
+        NinoPrintUtil.printAllType(nums);
     }
 
 

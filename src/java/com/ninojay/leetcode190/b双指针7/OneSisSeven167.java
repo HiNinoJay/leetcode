@@ -10,10 +10,9 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
 public class OneSisSeven167 {
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] numbers = {2,7,11,15};
         int target = 9;
-        ninoPrintUtil.printOneDimensionArray(twoSum(numbers, target));
+        NinoPrintUtil.printAllType(twoSum(numbers, target));
     }
 
     public static int[] twoSum(int[] numbers, int target) {

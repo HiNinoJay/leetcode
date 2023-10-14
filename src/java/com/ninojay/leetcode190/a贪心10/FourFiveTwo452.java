@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 
 /**
@@ -12,7 +14,7 @@ public class FourFiveTwo452 {
         int[][] points1 = {{10,16},{2,8},{1,6},{7,12}};
         int[][] points2 = {{1,2},{3,4},{5,6},{7,8}};
         int[][] points3 = {{1,2},{2,3},{3,4},{4,5}};
-        System.out.println(findMinArrowShots(points3));
+        NinoPrintUtil.printAllType(findMinArrowShots(points3));
     }
     public static int findMinArrowShots(int[][] points) {
         Arrays.sort(points, (o1, o2) -> o1[0] >= o2[0] ? 1 : -1);

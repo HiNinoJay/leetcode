@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.b双指针7;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.List;
 
@@ -30,7 +31,7 @@ public class FiveTwoFour524 {
         String s4 = "abpcplea";
         List<String> dictionary4 = NinoCreationUtil.createStringArrayList("ale","apple","monkey","plea", "abpcplaaa","abpcllllll","abccclllpppeeaaaa");
 
-        System.out.println(findLongestWord(s4, dictionary4));
+        NinoPrintUtil.printAllType(findLongestWord(s4, dictionary4));
     }
 
     /**

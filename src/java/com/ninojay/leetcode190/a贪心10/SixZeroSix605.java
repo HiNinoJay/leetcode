@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/1/31
@@ -26,6 +28,6 @@ public class SixZeroSix605 {
     public static void main(String[] args) {
         int[] flowerbed = {1,0,0,0,1};
         int n = 1;
-        System.out.println(new SixZeroSix605().canPlaceFlowers(flowerbed, n));
+        NinoPrintUtil.printAllType(new SixZeroSix605().canPlaceFlowers(flowerbed, n));
     }
 }

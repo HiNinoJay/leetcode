@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.b双指针7;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/14
@@ -10,7 +12,7 @@ public class SixEightZero680 {
         String s1 = "deeee"; // true
         String s2 = "aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga";// true
         String s3 = "abc";
-        System.out.println(validPalindrome(s3));
+        NinoPrintUtil.printAllType(validPalindrome(s3));
 
     }
 

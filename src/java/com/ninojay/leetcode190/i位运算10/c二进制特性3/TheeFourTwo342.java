@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.i位运算10.c二进制特性3;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/27
@@ -7,7 +9,7 @@ package com.ninojay.leetcode190.i位运算10.c二进制特性3;
 public class TheeFourTwo342 {
 
     public static void main(String[] args) {
-        System.out.println(isPowerOfFour(16));
+        NinoPrintUtil.printAllType(isPowerOfFour(16));
     }
 
     public static boolean isPowerOfFour(int n) {

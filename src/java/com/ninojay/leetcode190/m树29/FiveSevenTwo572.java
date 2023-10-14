@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -11,7 +12,7 @@ public class FiveSevenTwo572 {
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(3, 4 ,5, 1, 2);
         TreeNode subRoot = TreeNode.createBinaryTreeByInteger(4, 1, 2);
-        System.out.println(isSubtree(root, subRoot));
+        NinoPrintUtil.printAllType(isSubtree(root, subRoot));
     }
 
     public static boolean isSubtree(TreeNode root, TreeNode subRoot) {

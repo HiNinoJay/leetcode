@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.d排序4;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +17,7 @@ public class FoutFiveOne451 {
         String s1 = "cccaaa";
         String s2 = "Aabb";
         String s3 = "eeeee";
-        System.out.println(frequencySort(s3));
+        NinoPrintUtil.printAllType(frequencySort(s3));
     }
 
     public static String frequencySort(String s) {

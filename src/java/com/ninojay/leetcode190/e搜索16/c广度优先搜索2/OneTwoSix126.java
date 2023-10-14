@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.c广度优先搜索2;
 
 import com.google.common.collect.Lists;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,15 +13,10 @@ import java.util.List;
 public class OneTwoSix126 {
     public static void main(String[] args) {
 
-        String beginWord = "qa";
-        String endWord = "sq";
-        List<String> wordList = Lists.newArrayList("si","go","se","cm","so","ph","mt","db","mb","sb","kr","ln","tm","le","av","sm","ar","ci","ca","br","ti","ba","to","ra","fa","yo","ow","sn","ya","cr","po","fe","ho","ma","re","or","rn","au","ur","rh","sr","tc","lt","lo","as","fr","nb","yb","if","pb","ge","th","pm","rb","sh","co","ga","li","ha","hz","no","bi","di","hi","qa","pi","os","uh","wm","an","me","mo","na","la","st","er","sc","ne","mn","mi","am","ex","pt","io","be","fm","ta","tb","ni","mr","pa","he","lr","sq","ye");
-        for(List<String> list : new OneTwoSix126().findLadders(beginWord, endWord, wordList)) {
-            for(String temp : list) {
-                System.out.print(temp + " ");
-            }
-            System.out.println();
-        }
+        String beginWord = "hit";
+        String endWord = "cog";
+        List<String> wordList = Lists.newArrayList("hot","dot","dog","lot","log","cog");
+        NinoPrintUtil.printAllType(new OneTwoSix126().findLadders(beginWord, endWord, wordList));
     }
 
 

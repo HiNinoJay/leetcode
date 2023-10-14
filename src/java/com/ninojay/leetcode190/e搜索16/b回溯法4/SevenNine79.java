@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.b回溯法4;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -15,7 +16,7 @@ public class SevenNine79 {
                 "[\"S\",\"F\",\"C\",\"S\"]," +
                 "[\"A\",\"D\",\"E\",\"E\"]]");
         String word = "ABC";
-        System.out.println(new SevenNine79().exist(board, word));
+        NinoPrintUtil.printAllType(new SevenNine79().exist(board, word));
     }
 
     private int[] position = new int[]{-1, 0, 1, 0, -1};

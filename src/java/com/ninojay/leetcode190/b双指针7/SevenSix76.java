@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.b双指针7;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.HashMap;
 
 /**
@@ -11,7 +13,7 @@ public class SevenSix76 {
     public static void main(String[] args) {
         String s = "ADOBECODEBANC";
         String t = "ABC";
-        System.out.println(minWindow(s, t));
+        NinoPrintUtil.printAllType(minWindow(s, t));
     }
 
     /**

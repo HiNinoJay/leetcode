@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +16,8 @@ public class TwoFiveSeven257 {
 
         TreeNode root = TreeNode.createBinaryTreeByInteger(1,2,3,null,5);
         TreeNode root1 = TreeNode.createBinaryTreeByInteger(1);
-        for(String s : new TwoFiveSeven257().binaryTreePaths(root1)) {
-            System.out.println(s);
-        }
+
+        NinoPrintUtil.printAllType(new TwoFiveSeven257().binaryTreePaths(root1));
     }
 
     private List<String> result = new ArrayList<>();

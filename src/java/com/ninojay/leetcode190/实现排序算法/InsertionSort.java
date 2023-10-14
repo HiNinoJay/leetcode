@@ -11,10 +11,9 @@ import com.ninojay.leetcode190.util.NinoUtil;
  */
 public class InsertionSort {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
         insertion_sort(nums);
-        ninoPrintUtil.printOneDimensionArray(nums);
+        NinoPrintUtil.printAllType(nums);
     }
 
     /**

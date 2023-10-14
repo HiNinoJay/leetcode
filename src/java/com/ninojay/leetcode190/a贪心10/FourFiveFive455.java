@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 
 /**
@@ -24,6 +26,6 @@ public class FourFiveFive455 {
     public static void main(String[] args) {
         int[] g = {1, 2};
         int[] s = {1, 2, 3};
-        System.out.println(new FourFiveFive455().findContentChildren(g, s));
+        NinoPrintUtil.printAllType(new FourFiveFive455().findContentChildren(g, s));
     }
 }

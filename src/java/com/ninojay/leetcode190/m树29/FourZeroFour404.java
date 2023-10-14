@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -12,7 +13,7 @@ public class FourZeroFour404 {
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(3,9,20,null,null,15,7);
         TreeNode root1 = TreeNode.createBinaryTreeByInteger(1);
-        System.out.println(sumOfLeftLeaves(root1));
+        NinoPrintUtil.printAllType(sumOfLeftLeaves(root1));
     }
 
     public static int sumOfLeftLeaves(TreeNode root) {

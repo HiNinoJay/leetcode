@@ -13,9 +13,8 @@ import java.util.List;
 public class FourSix46 {
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(1, 2, 3);
-        ninoPrintUtil.printListListInteger(permute(nums));
+        NinoPrintUtil.printAllType(permute(nums));
     }
 
     public static List<List<Integer>> permute(int[] nums) {

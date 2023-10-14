@@ -1,12 +1,14 @@
 package com.ninojay.leetcode190.b双指针7;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/14
  */
 public class SixThreeThree633 {
     public static void main(String[] args) {
-        System.out.println(judgeSquareSum(2147483600));
+        NinoPrintUtil.printAllType(judgeSquareSum(2147483600));
     }
 
     /**

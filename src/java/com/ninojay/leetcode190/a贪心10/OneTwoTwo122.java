@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/10
@@ -10,7 +12,7 @@ public class OneTwoTwo122 {
         int[] prices = {7,1,5,3,6,4};
         int[] prices1 = {1,2,3,4,5};
         int[] prices2 = {7,6,4,3,1};
-        System.out.println(maxProfit(prices2));
+        NinoPrintUtil.printAllType(maxProfit(prices2));
     }
 
     public static int maxProfit(int[] prices) {

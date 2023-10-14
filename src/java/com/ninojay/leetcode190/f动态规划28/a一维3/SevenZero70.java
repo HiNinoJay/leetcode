@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.a一维3;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/21
@@ -9,7 +11,7 @@ public class SevenZero70 {
 
     public static void main(String[] args) {
         int n = 3;
-        System.out.println(climbStairs(n));
+        NinoPrintUtil.printAllType(climbStairs(n));
     }
 
     public static int climbStairs(int n) {

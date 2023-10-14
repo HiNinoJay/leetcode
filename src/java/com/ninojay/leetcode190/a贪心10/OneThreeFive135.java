@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2022/12/29
@@ -29,6 +31,6 @@ public class OneThreeFive135 {
 
     public static void main(String[] args) {
         int[] data = {1, 0 ,2};
-        System.out.println(new OneThreeFive135().candy(data));
+        NinoPrintUtil.printAllType(new OneThreeFive135().candy(data));
     }
 }

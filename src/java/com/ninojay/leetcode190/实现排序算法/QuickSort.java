@@ -16,7 +16,7 @@ public class QuickSort {
         int[] nums = NinoCreationUtil.createOneDimensionArray(1,3,5,7,2,6,4,8,9,2,8,7,6,0,3,5,9,4,1,0);
         quick_sort(nums, 0, nums.length);
         // 左闭右开
-        ninoPrintUtil.printOneDimensionArray(nums);
+        NinoPrintUtil.printAllType(nums);
     }
 
     /**

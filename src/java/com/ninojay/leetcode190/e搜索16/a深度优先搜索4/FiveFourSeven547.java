@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.e搜索16.a深度优先搜索4;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -13,7 +14,7 @@ public class FiveFourSeven547 {
                 "[[1,1,0]," +
                 "[1,1,0]," +
                 "[0,0,1]]");
-        System.out.println(new FiveFourSeven547().findCircleNum(isConnected));
+        NinoPrintUtil.printAllType(new FiveFourSeven547().findCircleNum(isConnected));
     }
 
     public int findCircleNum(int[][] isConnected) {

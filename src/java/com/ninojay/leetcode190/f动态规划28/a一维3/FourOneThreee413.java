@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.a一维3;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -10,7 +11,7 @@ public class FourOneThreee413 {
     public static void main(String[] args) {
 
         int[] nums = NinoCreationUtil.createOneDimensionArray(1, 2, 3, 4);
-        System.out.println(numberOfArithmeticSlices(nums));
+        NinoPrintUtil.printAllType(numberOfArithmeticSlices(nums));
 
     }
 

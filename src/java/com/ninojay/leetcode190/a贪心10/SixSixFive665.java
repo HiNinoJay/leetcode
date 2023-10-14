@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 /**
  * @author zengzhongjie
  * @date 2023/2/11
@@ -12,7 +14,7 @@ public class SixSixFive665 {
         int[] nums2 = {4,2,3}; // true  2,2,3
         int[] nums3 = {-1,4,2,3}; // true -1,-1,2,3
         int[] nums4 = {3,4,2,3};// fasle  3,3,2,3
-        System.out.println(checkPossibility(nums));
+        NinoPrintUtil.printAllType(checkPossibility(nums));
     }
 
     public static boolean checkPossibility(int[] nums) {

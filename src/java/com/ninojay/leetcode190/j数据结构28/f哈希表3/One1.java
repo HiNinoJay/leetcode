@@ -11,12 +11,11 @@ import java.util.HashMap;
  */
 public class One1 {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(2, 7, 11, 15);
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(3, 2, 4);
         int target = 9;
         int target1 = 6;
-        ninoPrintUtil.printOneDimensionArray(twoSum(nums1, target1));
+        NinoPrintUtil.printAllType(twoSum(nums1, target1));
 
     }
     public static int[] twoSum(int[] nums, int target) {

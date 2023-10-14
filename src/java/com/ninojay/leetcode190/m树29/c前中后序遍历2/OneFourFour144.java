@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29.c前中后序遍历2;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -17,9 +18,8 @@ public class OneFourFour144 {
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinaryTreeByInteger(1, 2, 3, 4);
         TreeNode.printTreeNode(root);
-        for(Integer num : preorderTraversal(root)) {
-            System.out.print(num + " ");
-        }
+
+        NinoPrintUtil.printAllType(preorderTraversal(root));
     }
     public static List<Integer> preorderTraversal(TreeNode root) {
         if(root == null) return result;

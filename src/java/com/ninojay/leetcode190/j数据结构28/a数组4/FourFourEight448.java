@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.j数据结构28.a数组4;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +13,8 @@ import java.util.List;
 public class FourFourEight448 {
     public static void main(String[] args) {
         int[] nums = NinoCreationUtil.createOneDimensionArray(4,3,2,7,8,2,3,1);
-        for(int num : findDisappearedNumbers(nums)) {
-            System.out.print(num + " ");
-        }
+
+        NinoPrintUtil.printAllType(findDisappearedNumbers(nums));
     }
 
     public static List<Integer> findDisappearedNumbers(int[] nums) {

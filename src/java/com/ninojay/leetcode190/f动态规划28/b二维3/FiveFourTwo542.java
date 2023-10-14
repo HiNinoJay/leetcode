@@ -9,10 +9,9 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
  */
 public class FiveFourTwo542 {
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[][] mat = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[0,0,0]]");
         int[][] mat1 = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[1,1,1]]");
-        ninoPrintUtil.printTwoDimensionArray(updateMatrix(mat1));
+        NinoPrintUtil.printAllType(updateMatrix(mat1));
     }
 
 

@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29.a树的递归6;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -13,7 +14,7 @@ public class FourThreeSeven437 {
         int targetSum = 8;
         int targetSum1 = 3;
         TreeNode.printTreeNode(root1);
-        System.out.println(pathSum(root1, targetSum1));
+        NinoPrintUtil.printAllType(pathSum(root1, targetSum1));
     }
 
     public static int pathSum(TreeNode root, int targetSum) {

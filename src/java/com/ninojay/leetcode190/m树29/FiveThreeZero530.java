@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.m树29;
 
 import com.ninojay.leetcode190.struct.TreeNode;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 import java.util.ArrayList;
 
@@ -11,7 +12,7 @@ import java.util.ArrayList;
 public class FiveThreeZero530 {
     public static void main(String[] args) {
         TreeNode root = TreeNode.createBinarySearchTreeByInteger(4, 2, 6, 1, 3);
-        System.out.println(getMinimumDifference(root));
+        NinoPrintUtil.printAllType(getMinimumDifference(root));
 
     }
     public static int getMinimumDifference(TreeNode root) {

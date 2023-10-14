@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.f动态规划28.a一维3;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -11,7 +12,7 @@ public class OneNineEight198 {
     public static void main(String[] args) {
         int[] nums = NinoCreationUtil.createOneDimensionArray(2,7,9,3,1);
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(1,1);
-        System.out.println(robByO1Zone(nums1));
+        NinoPrintUtil.printAllType(robByO1Zone(nums1));
 
     }
     public static int rob(int[] nums) {

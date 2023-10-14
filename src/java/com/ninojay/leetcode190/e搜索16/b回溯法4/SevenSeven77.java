@@ -15,10 +15,9 @@ public class SevenSeven77 {
     static List<Integer> temp_result = new ArrayList<>();
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int n = 4;
         int k = 2;
-        ninoPrintUtil.printListListInteger(new SevenSeven77().combine(n, k));
+        NinoPrintUtil.printAllType(new SevenSeven77().combine(n, k));
     }
 
     public List<List<Integer>> combine(int n, int k) {

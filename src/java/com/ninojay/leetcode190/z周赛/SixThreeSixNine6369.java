@@ -10,10 +10,9 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
 public class SixThreeSixNine6369 {
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[] nums = NinoCreationUtil.createOneDimensionArray(10,4,8,3);
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(1);
-        ninoPrintUtil.printOneDimensionArray(leftRigthDifference(nums1));
+        NinoPrintUtil.printAllType(leftRigthDifference(nums1));
 
     }
     public static int[] leftRigthDifference(int[] nums) {

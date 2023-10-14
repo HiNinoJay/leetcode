@@ -12,7 +12,6 @@ import java.util.*;
 public class FourZeroSix406 {
 
     public static void main(String[] args) {
-        NinoPrintUtil ninoPrintUtil = new NinoPrintUtil();
         int[][] people = {{7,0},{4,4},{7,1},{5,0},{6,1},{5,2}};
         //      排序后：  [[7,0],[7,1],[6,1],[5,2],[5,0],[4,4]]
         //  [[7,0],
@@ -25,7 +24,7 @@ public class FourZeroSix406 {
         int[][] people2 = {{6,0},{5,0},{4,0},{3,2},{2,2},{1,4}};
         int[][] people3 = {{9,0},{7,0},{1,9},{3,0},{2,7},{5,3},{6,0},{3,4},{6,2},{5,2}};
 
-        ninoPrintUtil.printTwoDimensionArray(reconstructQueue(people3));
+        NinoPrintUtil.printAllType(reconstructQueue(people3));
     }
 
     public static int[][] reconstructQueue(int[][] people) {

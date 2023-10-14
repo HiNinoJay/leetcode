@@ -1,6 +1,7 @@
 package com.ninojay.leetcode190.h数学问题17;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
+import com.ninojay.leetcode190.util.NinoPrintUtil;
 
 /**
  * @author zengzhongjie
@@ -10,7 +11,7 @@ public class TwoSeven27 {
     public static void main(String[] args) {
         int[] nums = NinoCreationUtil.createOneDimensionArray(3, 2, 2, 3);
         int val = 3;
-        System.out.println(removeElement(nums, val));
+        NinoPrintUtil.printAllType(removeElement(nums, val));
 
     }
     public static int removeElement(int[] nums, int val) {

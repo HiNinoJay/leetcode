@@ -1,5 +1,7 @@
 package com.ninojay.leetcode190.a贪心10;
 
+import com.ninojay.leetcode190.util.NinoPrintUtil;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -33,6 +35,6 @@ public class FourThreeSix436 {
 
     public static void main(String[] args) {
         int[][] data = {{1,2},{2,3},{3,4},{1,3}};
-        System.out.println(new FourThreeSix436().eraseOverlapIntervals(data));
+        NinoPrintUtil.printAllType(new FourThreeSix436().eraseOverlapIntervals(data));
     }
 }
