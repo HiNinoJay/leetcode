@@ -1,5 +1,6 @@
 package com.ninojay.leetcode190.util;
 
+import com.ninojay.leetcode190.struct.ListNode;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
