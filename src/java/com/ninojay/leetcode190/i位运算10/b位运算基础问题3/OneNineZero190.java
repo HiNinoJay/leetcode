@@ -10,10 +10,18 @@ public class OneNineZero190 {
 
     public static void main(String[] args) {
         int n = Integer.parseInt("00000010100101000001111010011100", 2);
-        NinoPrintUtil.printAllType(reverseBits(n));
+        NinoPrintUtil.printAllType(new OneNineZero190().reverseBits(n));
     }
 
-    public static int reverseBits(int n) {
-        return Integer.reverse(n);
+    public int reverseBits(int n) {
+
+        // 熟练掌握二进制左右移
+        int answer = 0;
+        for(int i = 0; i < 32; i++) {
+            answer <<= 1;
+            answer += (n & 1);
+            n >>= 1;
+        }
+        return answer;
     }
 }

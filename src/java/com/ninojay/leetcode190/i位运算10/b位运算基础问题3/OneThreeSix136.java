@@ -11,14 +11,15 @@ public class OneThreeSix136 {
 
     public static void main(String[] args) {
         int[] nums = NinoCreationUtil.createOneDimensionArray(2, 2, 1);
-        NinoPrintUtil.printAllType(singleNumber(nums));
+        NinoPrintUtil.printAllType(new OneThreeSix136().singleNumber(nums));
     }
 
-    public static int singleNumber(int[] nums) {
-        int result = 0;
+    public int singleNumber(int[] nums) {
+
+        int answer = 0;
         for(int i = 0; i < nums.length; i++) {
-            result ^= nums[i];
+            answer ^= nums[i];
         }
-        return result;
+        return answer;
     }
 }

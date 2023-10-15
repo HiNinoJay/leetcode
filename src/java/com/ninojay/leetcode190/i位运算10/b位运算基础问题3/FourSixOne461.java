@@ -11,17 +11,24 @@ public class FourSixOne461 {
     public static void main(String[] args) {
         int x = 3;
         int y = 1;
-        NinoPrintUtil.printAllType(hammingDistance(x, y));
+        NinoPrintUtil.printAllType(new FourSixOne461().hammingDistance(x, y));
     }
 
-    public static int hammingDistance(int x, int y) {
-        int temp = x ^ y;
-        int count = 0;
-        while(temp != 0) {
-            count = count + (temp & 1);
-            temp = temp >> 1;
+    public int hammingDistance(int x, int y) {
+        // 汉明距离的意思是
+        // 两个二进制数，他们的每一位 不同 个数
+
+        // 直接异或就很方便的求了,关键是学习 下 怎么获取 二进制每一位的
+
+        int target = x^y;
+        int result = 0;
+        while(target != 0) {
+            // 一位一位的与
+            result += (target & 1);
+            // 去右移
+            target >>= 1;
         }
-        return count;
+        return result;
     }
 
 }
