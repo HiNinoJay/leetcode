@@ -51,8 +51,13 @@ public class NinoCreationUtil {
                 columnCounts++;
             }
             if(s.charAt(i) != '[' && s.charAt(i) != ']' && s.charAt(i) != ',') {
-
-                nums.add((int)s.charAt(i) - '0');
+				int numStartIndex = i;
+                int numEndIndex = i+1;
+                while(s.charAt(numEndIndex) != '[' && s.charAt(numEndIndex) != ']' && s.charAt(numEndIndex) != ',') {
+                    numEndIndex++;
+                }
+                nums.add(Integer.parseInt(s.substring(numStartIndex, numEndIndex)));
+                i = numEndIndex - 1;
             }
         }
         columnCounts = columnCounts / rowCounts;
