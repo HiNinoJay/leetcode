@@ -1,4 +1,4 @@
-package com.ninojay.leetcode190.b双指针7;
+package com.ninojay.leetcode190.b双指针9;
 
 import com.ninojay.leetcode190.util.NinoCreationUtil;
 import com.ninojay.leetcode190.util.NinoPrintUtil;
