@@ -23,6 +23,7 @@ public class InsertionSort {
      */
     private static void insertion_sort(int[] nums ) {
         for(int i = 0; i < nums.length; i++) {
+            // j 对比 j 前一位即可
             for(int j = i; j > 0 && nums[j] < nums[j-1]; j--) {
                 NinoUtil.swapOneDemensionArray(nums, j, j-1);
             }
