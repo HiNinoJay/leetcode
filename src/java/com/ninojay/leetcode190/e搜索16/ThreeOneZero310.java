@@ -20,6 +20,7 @@ public class ThreeOneZero310 {
 
     private List<Integer> result = new ArrayList<>();
 
+    // 记录 节点 相连了哪些节点
     private Map<Integer, List<Integer>> edgeMap = new HashMap<>();
 
     // 记录度数，比如 3,4 代表 3节点的边有4条
@@ -27,9 +28,15 @@ public class ThreeOneZero310 {
 
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         if (n == 1) {
+            // 如果只有一个节点，那么范围是 0
+            // 第一个节点当然是0
             result.add(0);
             return result;
         }
+        // 基本逻辑就是 提前记录 相连了哪些节点，以及 度数
+        // 度数 为 2 意思就是这个 节点 有两条边相连
+        // 然后 将 求最矮树 问题转换为 一步步去掉度为1的节点，最终的节点就是我们所求
+        // 因为 度不为1 的 那么最好放在中间 而不在顶点，这才能使得高度最低
 
 
         // 构建相连接的map情况
@@ -64,6 +71,7 @@ public class ThreeOneZero310 {
         // 其实原理就是 一批一批地去除 度为1 的边
         // 因为 度不为1 的 那么最好放在中间 而不在顶点，这才能使得高度最低
         while (!queue.isEmpty()) {
+            // 每一层到这里都会把 result更新，所以，result最终一定最后一层
             result = new ArrayList<>();
             int size = queue.size();
 
