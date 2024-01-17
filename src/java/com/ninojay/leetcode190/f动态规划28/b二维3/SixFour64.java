@@ -11,10 +11,10 @@ public class SixFour64 {
 
     public static void main(String[] args) {
         int[][] grid = NinoCreationUtil.createTwoDimensionArray("[[1,3,1],[1,5,1],[4,2,1]]");
-        NinoPrintUtil.printAllType(minPathSum(grid));
+        NinoPrintUtil.printAllType(new SixFour64().minPathSum(grid));
     }
 
-    public static int minPathSum(int[][] grid) {
+    public int minPathSum(int[][] grid) {
 
         int[][] dp = new int[grid.length][grid[0].length];
 

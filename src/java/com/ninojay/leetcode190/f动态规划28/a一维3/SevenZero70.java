@@ -11,10 +11,10 @@ public class SevenZero70 {
 
     public static void main(String[] args) {
         int n = 3;
-        NinoPrintUtil.printAllType(climbStairs(n));
+        NinoPrintUtil.printAllType(new SevenZero70().climbStairs(n));
     }
 
-    public static int climbStairs(int n) {
+    public int climbStairs(int n) {
         int pre1 = 1;
         int pre2 = 2;
         int cur = n;

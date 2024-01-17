@@ -152,4 +152,7 @@ public class NinoCreationUtil {
         }
     }
 
+    public static String[] createOneStringDimension(String... numberx) {
+        return numberx;
+    }
 }

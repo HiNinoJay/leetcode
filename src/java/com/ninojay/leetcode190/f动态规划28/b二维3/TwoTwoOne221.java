@@ -12,11 +12,11 @@ public class TwoTwoOne221 {
     public static void main(String[] args) {
         char[][] matrix = NinoCreationUtil.createTwoDimensionCharArray("[[\"0\",\"1\"],[\"1\",\"0\"]]");
         char[][] matrix1 = NinoCreationUtil.createTwoDimensionCharArray("[[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]");
-        NinoPrintUtil.printAllType(maximalSquare(matrix1));
+        NinoPrintUtil.printAllType(new TwoTwoOne221().maximalSquare(matrix1));
     }
 
 
-    public static int maximalSquare(char[][] matrix) {
+    public int maximalSquare(char[][] matrix) {
         if(matrix == null) {
             return -1;
         }

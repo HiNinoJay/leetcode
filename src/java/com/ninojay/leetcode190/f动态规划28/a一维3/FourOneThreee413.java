@@ -11,11 +11,11 @@ public class FourOneThreee413 {
     public static void main(String[] args) {
 
         int[] nums = NinoCreationUtil.createOneDimensionArray(1, 2, 3, 4);
-        NinoPrintUtil.printAllType(numberOfArithmeticSlices(nums));
+        NinoPrintUtil.printAllType(new FourOneThreee413().numberOfArithmeticSlices(nums));
 
     }
 
-    public static int numberOfArithmeticSlices(int[] nums) {
+    public int numberOfArithmeticSlices(int[] nums) {
         int[] dp = new int[nums.length];
         for(int i = 2; i < nums.length; i++) {
             if(nums[i] - nums[i - 1] == nums[i - 1] - nums[i - 2]) {

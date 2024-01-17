@@ -11,11 +11,11 @@ public class FiveFourTwo542 {
     public static void main(String[] args) {
         int[][] mat = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[0,0,0]]");
         int[][] mat1 = NinoCreationUtil.createTwoDimensionArray("[[0,0,0],[0,1,0],[1,1,1]]");
-        NinoPrintUtil.printAllType(updateMatrix(mat1));
+        NinoPrintUtil.printAllType(new FiveFourTwo542().updateMatrix(mat1));
     }
 
 
-    public static int[][] updateMatrix(int[][] mat) {
+    public int[][] updateMatrix(int[][] mat) {
         if(mat == null) {
             return null;
         }

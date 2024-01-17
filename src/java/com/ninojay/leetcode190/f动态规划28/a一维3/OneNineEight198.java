@@ -12,10 +12,10 @@ public class OneNineEight198 {
     public static void main(String[] args) {
         int[] nums = NinoCreationUtil.createOneDimensionArray(2,7,9,3,1);
         int[] nums1 = NinoCreationUtil.createOneDimensionArray(1,1);
-        NinoPrintUtil.printAllType(robByO1Zone(nums1));
+        NinoPrintUtil.printAllType(new OneNineEight198().robByO1Zone(nums1));
 
     }
-    public static int rob(int[] nums) {
+    public int rob(int[] nums) {
         if(nums == null) {
             return 0;
         }
