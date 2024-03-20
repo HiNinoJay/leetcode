@@ -24,10 +24,10 @@ public class FourZeroSix406 {
         int[][] people2 = {{6,0},{5,0},{4,0},{3,2},{2,2},{1,4}};
         int[][] people3 = {{9,0},{7,0},{1,9},{3,0},{2,7},{5,3},{6,0},{3,4},{6,2},{5,2}};
 
-        NinoPrintUtil.printAllType(reconstructQueue(people3));
+        NinoPrintUtil.printAllType(new FourZeroSix406().reconstructQueue(people3));
     }
 
-    public static int[][] reconstructQueue(int[][] people) {
+    public int[][] reconstructQueue(int[][] people) {
         // 先按照身高直接排序
         Arrays.sort(people, (o1, o2) -> {
             // 如果第一个身高元素相同，则相同身高情况下，按照第二个元素升序

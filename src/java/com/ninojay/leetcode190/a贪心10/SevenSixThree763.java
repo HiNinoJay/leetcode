@@ -16,10 +16,10 @@ public class SevenSixThree763{
         String s = "ababcbacadefegdehijhklij";
         String s1 = "eccbbbbdec";
         String s2 = "qiejxqfnqceocmy";
-        NinoPrintUtil.printAllType(partitionLabels(s));
+        NinoPrintUtil.printAllType(new SevenSixThree763().partitionLabels(s));
     }
 
-    public static List<Integer> partitionLabels(String s) {
+    public List<Integer> partitionLabels(String s) {
         // 记录字符的最右位置
         HashMap<Character, Integer> hashMap = new HashMap<>();
         for(int i = 0; i < s.length(); i++) {

@@ -12,9 +12,8 @@ public class FourThreeFive435 {
 
 
     public static void main(String[] args) {
-        FourThreeFive435 fourThreeFive435 = new FourThreeFive435();
         int[][] data = {{1,2},{2,3},{3,4},{1,3}};
-        NinoPrintUtil.printAllType(fourThreeFive435.eraseOverlapIntervals(data));
+        NinoPrintUtil.printAllType(new FourThreeFive435().eraseOverlapIntervals(data));
     }
 
     public int eraseOverlapIntervals(int[][] intervals) {

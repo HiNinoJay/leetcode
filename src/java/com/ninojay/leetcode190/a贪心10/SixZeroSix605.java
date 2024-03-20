@@ -7,6 +7,12 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
  * @date 2023/1/31
  */
 public class SixZeroSix605 {
+    public static void main(String[] args) {
+        int[] flowerbed = {1,0,0,0,1};
+        int n = 1;
+        NinoPrintUtil.printAllType(new SixZeroSix605().canPlaceFlowers(flowerbed, n));
+    }
+
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int i = 0;
         while(i < flowerbed.length && n > 0) {
@@ -25,9 +31,4 @@ public class SixZeroSix605 {
         return n <= 0 ;
     }
 
-    public static void main(String[] args) {
-        int[] flowerbed = {1,0,0,0,1};
-        int n = 1;
-        NinoPrintUtil.printAllType(new SixZeroSix605().canPlaceFlowers(flowerbed, n));
-    }
 }

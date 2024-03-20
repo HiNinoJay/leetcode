@@ -14,10 +14,10 @@ public class SixSixFive665 {
         int[] nums2 = {4,2,3}; // true  2,2,3
         int[] nums3 = {-1,4,2,3}; // true -1,-1,2,3
         int[] nums4 = {3,4,2,3};// fasle  3,3,2,3
-        NinoPrintUtil.printAllType(checkPossibility(nums));
+        NinoPrintUtil.printAllType(new SixSixFive665().checkPossibility(nums));
     }
 
-    public static boolean checkPossibility(int[] nums) {
+    public boolean checkPossibility(int[] nums) {
         if(nums.length == 1) {
             return true;
         }

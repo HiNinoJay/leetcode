@@ -10,6 +10,12 @@ import java.util.Comparator;
  * @date 2023/1/31
  */
 public class FourThreeSix436 {
+
+    public static void main(String[] args) {
+        int[][] data = {{1,2},{2,3},{3,4},{1,3}};
+        NinoPrintUtil.printAllType(new FourThreeSix436().eraseOverlapIntervals(data));
+    }
+
     public int eraseOverlapIntervals(int[][] intervals) {
         if(intervals.length == 0) {
             return 0;
@@ -31,10 +37,5 @@ public class FourThreeSix436 {
             }
         }
         return remove;
-    }
-
-    public static void main(String[] args) {
-        int[][] data = {{1,2},{2,3},{3,4},{1,3}};
-        NinoPrintUtil.printAllType(new FourThreeSix436().eraseOverlapIntervals(data));
     }
 }

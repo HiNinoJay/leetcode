@@ -7,6 +7,11 @@ import com.ninojay.leetcode190.util.NinoPrintUtil;
  * @date 2022/12/29
  */
 public class OneThreeFive135 {
+    public static void main(String[] args) {
+        int[] data = {1, 0 ,2};
+        NinoPrintUtil.printAllType(new OneThreeFive135().candy(data));
+    }
+
     public int candy(int[] ratings) {
         int[] data = new int[ratings.length];
         for(int i = 0; i < data.length; i++) {
@@ -29,8 +34,4 @@ public class OneThreeFive135 {
         return result;
     }
 
-    public static void main(String[] args) {
-        int[] data = {1, 0 ,2};
-        NinoPrintUtil.printAllType(new OneThreeFive135().candy(data));
-    }
 }
