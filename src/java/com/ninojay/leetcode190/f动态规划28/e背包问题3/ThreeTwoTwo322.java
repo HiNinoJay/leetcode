@@ -3,6 +3,8 @@ package com.ninojay.leetcode190.f动态规划28.e背包问题3;
 import com.ninojay.leetcode190.util.NinoCreationUtil;
 import com.ninojay.leetcode190.util.NinoPrintUtil;
 
+import java.util.Arrays;
+
 /**
  * @author : zengzhongjie
  * @date : 2023/9/13 00:02
@@ -29,6 +31,7 @@ public class ThreeTwoTwo322 {
                     // 但是因为我们要找的是最小的数额，所以去找小的
                     dp[i] = Math.min(dp[i], dp[i-coin] + 1);
                 }
+
             }
         }
 
