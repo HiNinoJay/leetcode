@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author : nino
  * @date : 2024/3/20 19:37
  */
-public class play01 {
+public class Play01 {
 
     /**
      *
